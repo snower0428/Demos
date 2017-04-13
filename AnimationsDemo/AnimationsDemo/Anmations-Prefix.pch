@@ -1,0 +1,25 @@
+//
+//  Anmations-Prefix.pch
+//  AnimationsDemo
+//
+//  Created by leihui on 17/2/24.
+//  Copyright © 2017年 ND WebSoft Inc. All rights reserved.
+//
+
+#ifndef Anmations_Prefix_pch
+#define Anmations_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <QuartzCore/QuartzCore.h>
+
+	#import <pop/POP.h>
+
+	#import "PHDefines.h"
+	#import "UIColor+CustomColors.h"
+#endif
+
+#endif /* Anmations_Prefix_pch */

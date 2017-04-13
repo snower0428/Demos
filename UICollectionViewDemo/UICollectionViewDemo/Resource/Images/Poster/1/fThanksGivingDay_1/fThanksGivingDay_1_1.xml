@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<style name="fThanksGivingDay_1_1" count="1" thumb="fThanksGivingDay_1.jpg">
+    <frame x="0" y="0" width="600" height="800"></frame>
+    <text id="txt_KTS" defaultValue="Nov 26" clickType="text" zIndex="4" size="36" minSize="10" maxSize="36" align="right" value="$(exifDate)" locale="US" format="MMM dd">
+        <color red="220" green="104" blue="31" alpha="255"></color>
+        <frame x="465" y="120" width="120" height="55"></frame>
+        <font name="GurmukhiMN"></font>
+    </text>
+    <image id="img_RVP" file="type.png" zIndex="3">
+        <margin left="0" top="170" right="0" bottom="501"></margin>
+        <fill mode="origin">
+            <frame x="0" y="170" width="600" height="129"></frame>
+        </fill>
+    </image>
+    <part index="0" zIndex="2">
+        <path shape="rectangle">
+            <rect x="14" y="317" width="572" height="415"></rect>
+        </path>
+    </part>
+    <background index="0" height="800" zIndex="1" file="bg.jpg">
+        <color red="255" green="255" blue="255" alpha="255"></color>
+        <fill mode="origin">
+            <frame x="0" y="0" width="600" height="800"></frame>
+        </fill>
+    </background>
+</style>

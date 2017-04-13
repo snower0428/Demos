@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+source 'http://git.felink.com:3000/felink-iOS/FLSpecs.git'
+#source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+
+def import_pods
+  pod 'PHCategories', '~> 0.1.0'
+  pod 'BZUtility', '~>0.1.6'
+  pod 'BZUtility/Enhance'
+  pod 'SDWebImage', '~>3.7.5'
+end
+
+target 'FontsDemo' do
+  import_pods
+  pod 'PHUIKit', '~> 0.1.0'
+  pod 'PHUIKit/RESideMenu'
+  pod 'PHUIKit/SwipeView'
+end
+

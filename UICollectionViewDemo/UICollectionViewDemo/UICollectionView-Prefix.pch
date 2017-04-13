@@ -1,0 +1,29 @@
+//
+//  UICollectionView-Prefix.pch
+//  UICollectionViewDemo
+//
+//  Created by leihui on 16/12/21.
+//  Copyright © 2016年 ND WebSoft Inc. All rights reserved.
+//
+
+#ifndef UICollectionView_Prefix_pch
+#define UICollectionView_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <QuartzCore/QuartzCore.h>
+
+	#import <PHUIKit/RESideMenu.h>
+	#import <PHUIKit/SwipeView.h>
+	#import <BZLog/BZLog.h>
+	#import <PHCategories/PHCategories.h>
+	#import <BZUtility/BZUtility.h>
+
+	#import "ResourcesManager.h"
+	#import "PHDefines.h"
+#endif
+
+#endif /* UICollectionView_Prefix_pch */

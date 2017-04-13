@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<collage name="ThanksGivingDay_1" nameEn="ThanksGivingDay_1" version="2.6" minAppVersion="26" thumb="fThanksGivingDay_1.jpg" type="4:3">
+    <styles maxCount="1" minCount="1">
+        <import style="fThanksGivingDay_1_1"></import>
+    </styles>
+</collage>

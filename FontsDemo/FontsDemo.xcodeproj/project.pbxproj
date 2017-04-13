@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		294F9D5DA18C335BB319BB79 /* libPods-FontsDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B499F01D8F2B2AE56BEA18F5 /* libPods-FontsDemo.a */; };
+		79F60AB91E14B3160093263D /* ResourcesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F60AB81E14B3160093263D /* ResourcesManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		79F60AC61E14B4E20093263D /* PHTextEditorElementContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F60ABD1E14B4E10093263D /* PHTextEditorElementContainerView.m */; };
+		79F60AC71E14B4E20093263D /* PHTextEditorFontColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F60ABF1E14B4E10093263D /* PHTextEditorFontColorView.m */; };
+		79F60AC81E14B4E20093263D /* PHTextEditorFontView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F60AC11E14B4E10093263D /* PHTextEditorFontView.m */; };
+		79F60AC91E14B4E20093263D /* PHTextEditorToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F60AC31E14B4E10093263D /* PHTextEditorToolbar.m */; };
+		79F60ACA1E14B4E20093263D /* PHTextEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F60AC51E14B4E10093263D /* PHTextEditorView.m */; };
+		79F60ACD1E14B5340093263D /* FontsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F60ACC1E14B5340093263D /* FontsViewController.m */; };
+		79FA3AD51E13D8B900A5AC2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FA3AD41E13D8B900A5AC2E /* main.m */; };
+		79FA3AD81E13D8B900A5AC2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FA3AD71E13D8B900A5AC2E /* AppDelegate.m */; };
+		79FA3ADE1E13D8B900A5AC2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FA3ADC1E13D8B900A5AC2E /* Main.storyboard */; };
+		79FA3AE01E13D8B900A5AC2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79FA3ADF1E13D8B900A5AC2E /* Assets.xcassets */; };
+		79FA3AE31E13D8B900A5AC2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FA3AE11E13D8B900A5AC2E /* LaunchScreen.storyboard */; };
+		79FA3AF41E13DC0400A5AC2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FA3AF21E13DC0400A5AC2E /* ViewController.m */; };
+		79FA3AF61E13E10D00A5AC2E /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = 79FA3AF51E13E10D00A5AC2E /* Resource */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79F60AB71E14B3160093263D /* ResourcesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourcesManager.h; sourceTree = "<group>"; };
+		79F60AB81E14B3160093263D /* ResourcesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourcesManager.m; sourceTree = "<group>"; };
+		79F60ABB1E14B4E10093263D /* PHTextEditorDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHTextEditorDefines.h; sourceTree = "<group>"; };
+		79F60ABC1E14B4E10093263D /* PHTextEditorElementContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHTextEditorElementContainerView.h; sourceTree = "<group>"; };
+		79F60ABD1E14B4E10093263D /* PHTextEditorElementContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHTextEditorElementContainerView.m; sourceTree = "<group>"; };
+		79F60ABE1E14B4E10093263D /* PHTextEditorFontColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHTextEditorFontColorView.h; sourceTree = "<group>"; };
+		79F60ABF1E14B4E10093263D /* PHTextEditorFontColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHTextEditorFontColorView.m; sourceTree = "<group>"; };
+		79F60AC01E14B4E10093263D /* PHTextEditorFontView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHTextEditorFontView.h; sourceTree = "<group>"; };
+		79F60AC11E14B4E10093263D /* PHTextEditorFontView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHTextEditorFontView.m; sourceTree = "<group>"; };
+		79F60AC21E14B4E10093263D /* PHTextEditorToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHTextEditorToolbar.h; sourceTree = "<group>"; };
+		79F60AC31E14B4E10093263D /* PHTextEditorToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHTextEditorToolbar.m; sourceTree = "<group>"; };
+		79F60AC41E14B4E10093263D /* PHTextEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHTextEditorView.h; sourceTree = "<group>"; };
+		79F60AC51E14B4E10093263D /* PHTextEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHTextEditorView.m; sourceTree = "<group>"; };
+		79F60ACB1E14B5340093263D /* FontsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontsViewController.h; sourceTree = "<group>"; };
+		79F60ACC1E14B5340093263D /* FontsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontsViewController.m; sourceTree = "<group>"; };
+		79FA3AD01E13D8B900A5AC2E /* FontsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FA3AD41E13D8B900A5AC2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79FA3AD61E13D8B900A5AC2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79FA3AD71E13D8B900A5AC2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79FA3ADD1E13D8B900A5AC2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79FA3ADF1E13D8B900A5AC2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79FA3AE21E13D8B900A5AC2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79FA3AE41E13D8B900A5AC2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79FA3AEA1E13D99C00A5AC2E /* Fonts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fonts-Prefix.pch"; sourceTree = "<group>"; };
+		79FA3AEE1E13DC0400A5AC2E /* PHDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHDefines.h; sourceTree = "<group>"; };
+		79FA3AF11E13DC0400A5AC2E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79FA3AF21E13DC0400A5AC2E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79FA3AF51E13E10D00A5AC2E /* Resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resource; sourceTree = "<group>"; };
+		7F1B11D42D6A801875EDFA6D /* Pods-FontsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontsDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FontsDemo/Pods-FontsDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A2EFBB813651B24B63AE2EAE /* Pods-FontsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontsDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FontsDemo/Pods-FontsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B499F01D8F2B2AE56BEA18F5 /* libPods-FontsDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontsDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79FA3ACD1E13D8B900A5AC2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294F9D5DA18C335BB319BB79 /* libPods-FontsDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67CC98D940B07F4DAC43BD39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F1B11D42D6A801875EDFA6D /* Pods-FontsDemo.debug.xcconfig */,
+				A2EFBB813651B24B63AE2EAE /* Pods-FontsDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79F60AB61E14B3160093263D /* ResourcesManager */ = {
+			isa = PBXGroup;
+			children = (
+				79F60AB71E14B3160093263D /* ResourcesManager.h */,
+				79F60AB81E14B3160093263D /* ResourcesManager.m */,
+			);
+			path = ResourcesManager;
+			sourceTree = "<group>";
+		};
+		79F60ABA1E14B4E10093263D /* PHTextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				79F60ABB1E14B4E10093263D /* PHTextEditorDefines.h */,
+				79F60AC41E14B4E10093263D /* PHTextEditorView.h */,
+				79F60AC51E14B4E10093263D /* PHTextEditorView.m */,
+				79F60AC21E14B4E10093263D /* PHTextEditorToolbar.h */,
+				79F60AC31E14B4E10093263D /* PHTextEditorToolbar.m */,
+				79F60ABC1E14B4E10093263D /* PHTextEditorElementContainerView.h */,
+				79F60ABD1E14B4E10093263D /* PHTextEditorElementContainerView.m */,
+				79F60ABE1E14B4E10093263D /* PHTextEditorFontColorView.h */,
+				79F60ABF1E14B4E10093263D /* PHTextEditorFontColorView.m */,
+				79F60AC01E14B4E10093263D /* PHTextEditorFontView.h */,
+				79F60AC11E14B4E10093263D /* PHTextEditorFontView.m */,
+			);
+			path = PHTextEditor;
+			sourceTree = "<group>";
+		};
+		79FA3AC71E13D8B900A5AC2E = {
+			isa = PBXGroup;
+			children = (
+				79FA3AD21E13D8B900A5AC2E /* FontsDemo */,
+				79FA3AD11E13D8B900A5AC2E /* Products */,
+				67CC98D940B07F4DAC43BD39 /* Pods */,
+				F953A8650A3C1B9F468889F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		79FA3AD11E13D8B900A5AC2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79FA3AD01E13D8B900A5AC2E /* FontsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79FA3AD21E13D8B900A5AC2E /* FontsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				79FA3AEB1E13DC0400A5AC2E /* Classes */,
+				79FA3AD61E13D8B900A5AC2E /* AppDelegate.h */,
+				79FA3AD71E13D8B900A5AC2E /* AppDelegate.m */,
+				79FA3ADC1E13D8B900A5AC2E /* Main.storyboard */,
+				79FA3ADF1E13D8B900A5AC2E /* Assets.xcassets */,
+				79FA3AE11E13D8B900A5AC2E /* LaunchScreen.storyboard */,
+				79FA3AE41E13D8B900A5AC2E /* Info.plist */,
+				79FA3AD31E13D8B900A5AC2E /* Supporting Files */,
+			);
+			path = FontsDemo;
+			sourceTree = "<group>";
+		};
+		79FA3AD31E13D8B900A5AC2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79FA3AF51E13E10D00A5AC2E /* Resource */,
+				79FA3AD41E13D8B900A5AC2E /* main.m */,
+				79FA3AEA1E13D99C00A5AC2E /* Fonts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79FA3AEB1E13DC0400A5AC2E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				79FA3AEC1E13DC0400A5AC2E /* Common */,
+				79FA3AED1E13DC0400A5AC2E /* Defines */,
+				79FA3AEF1E13DC0400A5AC2E /* Models */,
+				79FA3AF01E13DC0400A5AC2E /* ViewControllers */,
+				79FA3AF31E13DC0400A5AC2E /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		79FA3AEC1E13DC0400A5AC2E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				79F60AB61E14B3160093263D /* ResourcesManager */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		79FA3AED1E13DC0400A5AC2E /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				79FA3AEE1E13DC0400A5AC2E /* PHDefines.h */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		79FA3AEF1E13DC0400A5AC2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		79FA3AF01E13DC0400A5AC2E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				79FA3AF11E13DC0400A5AC2E /* ViewController.h */,
+				79FA3AF21E13DC0400A5AC2E /* ViewController.m */,
+				79F60ACB1E14B5340093263D /* FontsViewController.h */,
+				79F60ACC1E14B5340093263D /* FontsViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		79FA3AF31E13DC0400A5AC2E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79F60ABA1E14B4E10093263D /* PHTextEditor */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F953A8650A3C1B9F468889F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B499F01D8F2B2AE56BEA18F5 /* libPods-FontsDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79FA3ACF1E13D8B900A5AC2E /* FontsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FA3AE71E13D8B900A5AC2E /* Build configuration list for PBXNativeTarget "FontsDemo" */;
+			buildPhases = (
+				6988C2A537A669F6C7D3565D /* [CP] Check Pods Manifest.lock */,
+				79FA3ACC1E13D8B900A5AC2E /* Sources */,
+				79FA3ACD1E13D8B900A5AC2E /* Frameworks */,
+				79FA3ACE1E13D8B900A5AC2E /* Resources */,
+				D9335A5D16484D0433EC0B4E /* [CP] Embed Pods Frameworks */,
+				9585AAC0515A35706ECE147B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontsDemo;
+			productName = FontsDemo;
+			productReference = 79FA3AD01E13D8B900A5AC2E /* FontsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79FA3AC81E13D8B900A5AC2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "ND WebSoft Inc";
+				TargetAttributes = {
+					79FA3ACF1E13D8B900A5AC2E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ZNGFQM2NH2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 79FA3ACB1E13D8B900A5AC2E /* Build configuration list for PBXProject "FontsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79FA3AC71E13D8B900A5AC2E;
+			productRefGroup = 79FA3AD11E13D8B900A5AC2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79FA3ACF1E13D8B900A5AC2E /* FontsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79FA3ACE1E13D8B900A5AC2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FA3AF61E13E10D00A5AC2E /* Resource in Resources */,
+				79FA3AE31E13D8B900A5AC2E /* LaunchScreen.storyboard in Resources */,
+				79FA3AE01E13D8B900A5AC2E /* Assets.xcassets in Resources */,
+				79FA3ADE1E13D8B900A5AC2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6988C2A537A669F6C7D3565D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9585AAC0515A35706ECE147B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FontsDemo/Pods-FontsDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9335A5D16484D0433EC0B4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FontsDemo/Pods-FontsDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79FA3ACC1E13D8B900A5AC2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F60ACA1E14B4E20093263D /* PHTextEditorView.m in Sources */,
+				79FA3AF41E13DC0400A5AC2E /* ViewController.m in Sources */,
+				79F60AC81E14B4E20093263D /* PHTextEditorFontView.m in Sources */,
+				79FA3AD81E13D8B900A5AC2E /* AppDelegate.m in Sources */,
+				79F60AC61E14B4E20093263D /* PHTextEditorElementContainerView.m in Sources */,
+				79F60ACD1E14B5340093263D /* FontsViewController.m in Sources */,
+				79F60AC71E14B4E20093263D /* PHTextEditorFontColorView.m in Sources */,
+				79FA3AD51E13D8B900A5AC2E /* main.m in Sources */,
+				79F60AB91E14B3160093263D /* ResourcesManager.m in Sources */,
+				79F60AC91E14B4E20093263D /* PHTextEditorToolbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79FA3ADC1E13D8B900A5AC2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79FA3ADD1E13D8B900A5AC2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79FA3AE11E13D8B900A5AC2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79FA3AE21E13D8B900A5AC2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79FA3AE51E13D8B900A5AC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79FA3AE61E13D8B900A5AC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79FA3AE81E13D8B900A5AC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1B11D42D6A801875EDFA6D /* Pods-FontsDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZNGFQM2NH2;
+				GCC_PREFIX_HEADER = "FontsDemo/Fonts-Prefix.pch";
+				INFOPLIST_FILE = FontsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.91.sj.FontsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79FA3AE91E13D8B900A5AC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2EFBB813651B24B63AE2EAE /* Pods-FontsDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZNGFQM2NH2;
+				GCC_PREFIX_HEADER = "FontsDemo/Fonts-Prefix.pch";
+				INFOPLIST_FILE = FontsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.91.sj.FontsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79FA3ACB1E13D8B900A5AC2E /* Build configuration list for PBXProject "FontsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FA3AE51E13D8B900A5AC2E /* Debug */,
+				79FA3AE61E13D8B900A5AC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FA3AE71E13D8B900A5AC2E /* Build configuration list for PBXNativeTarget "FontsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FA3AE81E13D8B900A5AC2E /* Debug */,
+				79FA3AE91E13D8B900A5AC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79FA3AC81E13D8B900A5AC2E /* Project object */;
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BackgroundFrame</key>
+	<string>{{0, 0}, {600, 600}}</string>
+	<key>CompatibleVersion</key>
+	<array>
+		<string>1</string>
+		<string>2</string>
+	</array>
+	<key>Masks</key>
+	<dict>
+		<key>part</key>
+		<dict>
+			<key>Root</key>
+			<string>part</string>
+			<key>__text</key>
+			<array>
+				<string>
+        </string>
+				<string>
+    </string>
+			</array>
+			<key>index</key>
+			<string>0</string>
+			<key>path</key>
+			<dict>
+				<key>Root</key>
+				<string>path</string>
+				<key>__text</key>
+				<array>
+					<string>
+            </string>
+					<string>
+        </string>
+				</array>
+				<key>circle</key>
+				<dict>
+					<key>Root</key>
+					<string>circle</string>
+					<key>radius</key>
+					<string>271</string>
+					<key>x</key>
+					<string>300</string>
+					<key>y</key>
+					<string>300</string>
+				</dict>
+				<key>shape</key>
+				<string>circle</string>
+			</dict>
+			<key>zIndex</key>
+			<string>1</string>
+		</dict>
+	</dict>
+	<key>Version</key>
+	<string>2</string>
+</dict>
+</plist>
