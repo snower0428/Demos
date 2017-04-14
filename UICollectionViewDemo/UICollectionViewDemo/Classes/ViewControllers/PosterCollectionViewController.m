@@ -162,7 +162,7 @@ static NSString *kCellIdentifier = @"cellIdentifier";
 	return cell;
 }
 
-#pragma mark - UICollectionViewDelegate
+#pragma mark - UICollectionViewDelegateFlowLayout
 
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section
 {
@@ -185,7 +185,7 @@ static NSString *kCellIdentifier = @"cellIdentifier";
 	if (row < [_arrayImageSize count]) {
 		CGSize size = CGSizeFromString(_arrayImageSize[row]);
 		
-		CGFloat leftRightMargin = (_layout.sectionInset.left + _layout.sectionInset.right) * _numberOfColumns;
+		CGFloat leftRightMargin = _layout.sectionInset.left + _layout.sectionInset.right;
 		CGFloat xIntervalSpace = _layout.minimumLineSpacing * (_numberOfColumns - 1);
 		
 		CGFloat width = (SCREEN_WIDTH - leftRightMargin - xIntervalSpace) / _numberOfColumns;
@@ -195,6 +195,8 @@ static NSString *kCellIdentifier = @"cellIdentifier";
 	}
 	return CGSizeZero;
 }
+
+#pragma mark - UICollectionViewDelegate
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {

@@ -51,7 +51,9 @@
 }
 
 - (void)prepareLayout {
-    
+	
+	[super prepareLayout];
+	
     NSUInteger numberOfSections = self.collectionView.numberOfSections;
     self.sectionRects = [[NSMutableArray alloc] initWithCapacity:numberOfSections];
     self.columnRectsInSection = [[NSMutableArray alloc] initWithCapacity:numberOfSections];
