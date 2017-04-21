@@ -25,6 +25,18 @@
 	
 	//[self testShapeLayer];
 	//[self drawSimpleLayer];
+	
+	UIGraphicsBeginImageContextWithOptions(self.view.bounds.size, NO, 0);
+	CGContextRef context = UIGraphicsGetCurrentContext();
+	CGContextTranslateCTM(context, 0, self.view.bounds.size.height);
+	CGContextScaleCTM(context, 1.0, -1.0);
+	CGContextDrawImage(context, self.view.bounds, getResource(@"test.jpg").CGImage);
+	UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+	UIGraphicsEndImageContext();
+	
+	UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 200, 200, 300)];
+	imageView.image = image;
+	[self.view addSubview:imageView];
 }
 
 - (void)didReceiveMemoryWarning {

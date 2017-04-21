@@ -16,6 +16,7 @@
 		791ADB6B1E94EE1D00D2DABD /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 791ADB5F1E94EE1D00D2DABD /* FXBlurView.m */; };
 		791ADB6D1E94EE1D00D2DABD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 791ADB611E94EE1D00D2DABD /* main.m */; };
 		791ADB6E1E94EE1D00D2DABD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791ADB641E94EE1D00D2DABD /* ViewController.m */; };
+		7961938F1EA49635007560EC /* GPUImageViewController03.m in Sources */ = {isa = PBXBuildFile; fileRef = 7961938E1EA49635007560EC /* GPUImageViewController03.m */; };
 		79EB861A1E9DC047001F0BAB /* GPUImageViewController02.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EB86191E9DC047001F0BAB /* GPUImageViewController02.m */; };
 		79F56D701E9CE3F100EAC7FE /* GPUImageViewController01.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F56D6F1E9CE3F100EAC7FE /* GPUImageViewController01.m */; };
 		79F56D721E9CE6E500EAC7FE /* Resource in Resources */ = {isa = PBXBuildFile; fileRef = 79F56D711E9CE6E500EAC7FE /* Resource */; };
@@ -44,6 +45,8 @@
 		791ADB621E94EE1D00D2DABD /* GPUImage-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GPUImage-Prefix.pch"; sourceTree = "<group>"; };
 		791ADB631E94EE1D00D2DABD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		791ADB641E94EE1D00D2DABD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7961938D1EA49635007560EC /* GPUImageViewController03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageViewController03.h; sourceTree = "<group>"; };
+		7961938E1EA49635007560EC /* GPUImageViewController03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageViewController03.m; sourceTree = "<group>"; };
 		79EB86181E9DC047001F0BAB /* GPUImageViewController02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageViewController02.h; sourceTree = "<group>"; };
 		79EB86191E9DC047001F0BAB /* GPUImageViewController02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageViewController02.m; sourceTree = "<group>"; };
 		79F56D6E1E9CE3F100EAC7FE /* GPUImageViewController01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageViewController01.h; sourceTree = "<group>"; };
@@ -172,6 +175,8 @@
 				79F56D6F1E9CE3F100EAC7FE /* GPUImageViewController01.m */,
 				79EB86181E9DC047001F0BAB /* GPUImageViewController02.h */,
 				79EB86191E9DC047001F0BAB /* GPUImageViewController02.m */,
+				7961938D1EA49635007560EC /* GPUImageViewController03.h */,
+				7961938E1EA49635007560EC /* GPUImageViewController03.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -345,6 +350,7 @@
 				79EB861A1E9DC047001F0BAB /* GPUImageViewController02.m in Sources */,
 				79F56D701E9CE3F100EAC7FE /* GPUImageViewController01.m in Sources */,
 				791ADB671E94EE1D00D2DABD /* NSString+Extend.m in Sources */,
+				7961938F1EA49635007560EC /* GPUImageViewController03.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "GPUImageViewController01.h"
 #import "GPUImageViewController02.h"
+#import "GPUImageViewController03.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -45,6 +46,7 @@
 {
 	self.arrayData = @[@[@"GPUImage 01", [GPUImageViewController01 class]],
 					   @[@"GPUImage 02", [GPUImageViewController02 class]],
+					   @[@"GPUImage 03", [GPUImageViewController03 class]],
 					   ];
 }
 
