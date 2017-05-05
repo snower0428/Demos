@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  TempDemo
+//  Collage
 //
 //  Created by leihui on 17/3/14.
 //  Copyright © 2017年 ND WebSoft Inc. All rights reserved.
@@ -8,14 +8,9 @@
 
 #import "ViewController.h"
 #import "TestViewController.h"
-#import "TransformViewController.h"
-#import "SpecialLayerViewController.h"
-#import "CATransformLayerViewController.h"
-#import "CAGradientLayerViewController.h"
-#import "CAShapeLayerViewController.h"
-#import "CAReplicatorLayerViewController.h"
+#import "PHImagePickerViewCtrl.h"
 
-@interface ViewController () <UITableViewDataSource, UITableViewDelegate>
+@interface ViewController () <UITableViewDataSource, UITableViewDelegate, PHImagePickerViewCtrlDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, copy) NSArray *arrayData;
@@ -49,12 +44,6 @@
 - (void)configureTableView
 {
 	self.arrayData = @[@[@"Test", [TestViewController class]],
-					   @[@"Transform", [TransformViewController class]],
-					   @[@"Special Layer", [SpecialLayerViewController class]],
-					   @[@"Transform Layer", [CATransformLayerViewController class]],
-					   @[@"Gradient Layer", [CAGradientLayerViewController class]],
-					   @[@"Shape Layer", [CAShapeLayerViewController class]],
-					   @[@"Replicator Layer", [CAReplicatorLayerViewController class]],
 					   ];
 }
 
@@ -111,9 +100,24 @@
 	
 	NSInteger row = indexPath.row;
 	if (row < [_arrayData count]) {
+#if 0
 		UIViewController *ctrl = [[_arrayData[row] lastObject] new];
 		[self.navigationController pushViewController:ctrl animated:YES];
+#else
+		PHImagePickerViewCtrl *imagePickerController = [[PHImagePickerViewCtrl alloc] init];
+		imagePickerController.delegate = self;
+		imagePickerController.allowsMultipleSelection = YES;
+		
+		[self.navigationController pushViewController:imagePickerController animated:YES];
+#endif
 	}
+}
+
+#pragma mark - PHImagePickerViewCtrlDelegate
+
+- (void)imagePickerController:(PHImagePickerViewCtrl *)imagePickerController collageImage:(UIImage *)image
+{
+	NSLog(@"");
 }
 
 @end

@@ -10,6 +10,8 @@
 		06A7FD071F5B2181E458DD5B /* libPods-CoreAnimationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DF42B82535343499FCA15E /* libPods-CoreAnimationDemo.a */; };
 		79312CE11E8E5C3100A3219C /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 79312CE01E8E5C3100A3219C /* UIImage+Extend.m */; };
 		79312CE71E8E80C700A3219C /* CAShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79312CE61E8E80C700A3219C /* CAShapeLayerViewController.m */; };
+		7981F1931EBC511900482C1E /* CAReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7981F1921EBC511900482C1E /* CAReplicatorLayerViewController.m */; };
+		7981F1971EBC7C0100482C1E /* ReplicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7981F1961EBC7C0100482C1E /* ReplicatorAnimation.m */; };
 		79920EDC1E7A41AE009DA372 /* SpecialLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79920EDB1E7A41AE009DA372 /* SpecialLayerViewController.m */; };
 		79920EE21E7AAF71009DA372 /* CATransformLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79920EE11E7AAF71009DA372 /* CATransformLayerViewController.m */; };
 		79F4B30C1E890BE800E59394 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F4B30B1E890BE800E59394 /* TestViewController.m */; };
@@ -36,6 +38,10 @@
 		79312CE01E8E5C3100A3219C /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extend.m"; path = "Classes/Common/Categories/UIImage+Extend.m"; sourceTree = "<group>"; };
 		79312CE51E8E80C700A3219C /* CAShapeLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAShapeLayerViewController.h; path = Classes/ViewControllers/CAShapeLayerViewController.h; sourceTree = "<group>"; };
 		79312CE61E8E80C700A3219C /* CAShapeLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAShapeLayerViewController.m; path = Classes/ViewControllers/CAShapeLayerViewController.m; sourceTree = "<group>"; };
+		7981F1911EBC511900482C1E /* CAReplicatorLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAReplicatorLayerViewController.h; path = Classes/ViewControllers/CAReplicatorLayerViewController.h; sourceTree = "<group>"; };
+		7981F1921EBC511900482C1E /* CAReplicatorLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAReplicatorLayerViewController.m; path = Classes/ViewControllers/CAReplicatorLayerViewController.m; sourceTree = "<group>"; };
+		7981F1951EBC7C0100482C1E /* ReplicatorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicatorAnimation.h; sourceTree = "<group>"; };
+		7981F1961EBC7C0100482C1E /* ReplicatorAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplicatorAnimation.m; sourceTree = "<group>"; };
 		79920EDA1E7A41AE009DA372 /* SpecialLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpecialLayerViewController.h; path = Classes/ViewControllers/SpecialLayerViewController.h; sourceTree = "<group>"; };
 		79920EDB1E7A41AE009DA372 /* SpecialLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpecialLayerViewController.m; path = Classes/ViewControllers/SpecialLayerViewController.m; sourceTree = "<group>"; };
 		79920EE01E7AAF71009DA372 /* CATransformLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CATransformLayerViewController.h; path = Classes/ViewControllers/CATransformLayerViewController.h; sourceTree = "<group>"; };
@@ -91,6 +97,16 @@
 				47DF42B82535343499FCA15E /* libPods-CoreAnimationDemo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7981F1941EBC7BEF00482C1E /* ReplicatorAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7981F1951EBC7C0100482C1E /* ReplicatorAnimation.h */,
+				7981F1961EBC7C0100482C1E /* ReplicatorAnimation.m */,
+			);
+			name = ReplicatorAnimation;
+			path = Classes/Common/ReplicatorAnimation;
 			sourceTree = "<group>";
 		};
 		79FC987F1E7B90AE00CE799F /* JX_GCDTimer */ = {
@@ -209,6 +225,8 @@
 				79FE37421E791F01007A59FA /* CAGradientLayerViewController.m */,
 				79312CE51E8E80C700A3219C /* CAShapeLayerViewController.h */,
 				79312CE61E8E80C700A3219C /* CAShapeLayerViewController.m */,
+				7981F1911EBC511900482C1E /* CAReplicatorLayerViewController.h */,
+				7981F1921EBC511900482C1E /* CAReplicatorLayerViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -216,6 +234,7 @@
 		79FE37441E791F01007A59FA /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				7981F1941EBC7BEF00482C1E /* ReplicatorAnimation */,
 				79FC987F1E7B90AE00CE799F /* JX_GCDTimer */,
 				79FE37461E791F01007A59FA /* Categories */,
 				79FE374A1E791F01007A59FA /* ResourcesManager */,
@@ -379,6 +398,7 @@
 				79920EDC1E7A41AE009DA372 /* SpecialLayerViewController.m in Sources */,
 				79FE37431E791F01007A59FA /* CAGradientLayerViewController.m in Sources */,
 				79312CE11E8E5C3100A3219C /* UIImage+Extend.m in Sources */,
+				7981F1931EBC511900482C1E /* CAReplicatorLayerViewController.m in Sources */,
 				79FC98821E7B90AE00CE799F /* JX_GCDTimerManager.m in Sources */,
 				79FE37311E791F00007A59FA /* ViewController.m in Sources */,
 				79F4B30C1E890BE800E59394 /* TestViewController.m in Sources */,
@@ -386,6 +406,7 @@
 				79FE374D1E791F01007A59FA /* ResourcesManager.m in Sources */,
 				79312CE71E8E80C700A3219C /* CAShapeLayerViewController.m in Sources */,
 				79FE373F1E791F01007A59FA /* FXBlurView.m in Sources */,
+				7981F1971EBC7C0100482C1E /* ReplicatorAnimation.m in Sources */,
 				79F611471E8E2B5100206B2A /* DataItem.m in Sources */,
 				79FE37491E791F01007A59FA /* NSString+Extend.m in Sources */,
 				79920EE21E7AAF71009DA372 /* CATransformLayerViewController.m in Sources */,
