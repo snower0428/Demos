@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>还有糖</string>
+		<key>cate_id</key>
+		<string>619</string>
+		<key>id</key>
+		<string>20019759</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>619</string>
+		<key>name</key>
+		<string>吃完这块肉，我就减肥</string>
+		<key>number</key>
+		<string>inb3168956</string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg07.jiuyan.info/in/2015/07/07/2CAC7046-AD98-33F3-5639-09F6DCF99400.jpg</string>
+		<key>series_id</key>
+		<string>5347</string>
+		<key>series_name</key>
+		<string>最近的话</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg07.jiuyan.info/in/2015/07/07/08F0B5F0-0FF4-988B-D521-B22BEF07E229.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg07.jiuyan.info/in/2015/07/07/08F0B5F0-0FF4-988B-D521-B22BEF07E229.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>还有糖</string>
+			<key>number</key>
+			<string>inb3168956</string>
+			<key>user_id</key>
+			<string>34574625</string>
+		</dict>
+		<key>user_id</key>
+		<string>34574625</string>
+	</dict>
+</array>
+</plist>

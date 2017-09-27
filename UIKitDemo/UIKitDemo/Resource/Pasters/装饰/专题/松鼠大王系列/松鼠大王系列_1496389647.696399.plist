@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>松鼠大王</string>
+		<key>cate_id</key>
+		<string>3896</string>
+		<key>id</key>
+		<string>20055382</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>可爱口味</string>
+		<key>number</key>
+		<string>inn607976</string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg05.jiuyan.info/in/2017/04/10/E9C54F6D-62FD-3133-97A6-98573F6E8B2A.jpg</string>
+		<key>series_id</key>
+		<string>14250</string>
+		<key>series_name</key>
+		<string>浪味仙可爱口味</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg05.jiuyan.info/in/2017/04/10/7DD269D9-AEFA-3F6B-6715-9AF34E0294B0.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg05.jiuyan.info/in/2017/04/10/7DD269D9-AEFA-3F6B-6715-9AF34E0294B0.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>松鼠大王</string>
+			<key>number</key>
+			<string>inn607976</string>
+			<key>user_id</key>
+			<string>70051071</string>
+		</dict>
+		<key>user_id</key>
+		<string>70051071</string>
+	</dict>
+</array>
+</plist>

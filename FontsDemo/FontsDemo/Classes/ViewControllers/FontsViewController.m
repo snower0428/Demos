@@ -57,13 +57,15 @@
 	NSInteger indFamily, indFont;
 	for (indFamily=0; indFamily<[familyNames count]; ++indFamily)
 	{
-		NSLog(@"Family name: %@", [familyNames objectAtIndex:indFamily]);
+		//NSLog(@"Family name: %@", [familyNames objectAtIndex:indFamily]);
+		NSLog(@"字体族: %@", [familyNames objectAtIndex:indFamily]);
 		fontNames = [[NSArray alloc] initWithArray:
 					 [UIFont fontNamesForFamilyName:
 					  [familyNames objectAtIndex:indFamily]]];
 		for (indFont=0; indFont<[fontNames count]; ++indFont)
 		{
-			NSLog(@"    Font name: %@", [fontNames objectAtIndex:indFont]);
+			//NSLog(@"    Font name: %@", [fontNames objectAtIndex:indFont]);
+			NSLog(@"    字体名称: %@", [fontNames objectAtIndex:indFont]);
 			
 			[array addObject:[fontNames objectAtIndex:indFont]];
 		}

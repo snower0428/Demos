@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>睿雨</string>
+		<key>cate_id</key>
+		<string>294</string>
+		<key>id</key>
+		<string>20052281</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>新年美美哒</string>
+		<key>number</key>
+		<string>Woxiwanghao91</string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg02.jiuyan.info/in/2017/01/23/7D4463DB-061F-B1CC-107B-B79A65B4BBA9.jpg</string>
+		<key>series_id</key>
+		<string>13477</string>
+		<key>series_name</key>
+		<string>新年美美哒</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg02.jiuyan.info/in/2017/01/23/3B53B19C-256E-1B66-411E-7E1B84AB5658.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg02.jiuyan.info/in/2017/01/23/3B53B19C-256E-1B66-411E-7E1B84AB5658.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>睿雨</string>
+			<key>number</key>
+			<string>Woxiwanghao91</string>
+			<key>user_id</key>
+			<string>33454564</string>
+		</dict>
+		<key>user_id</key>
+		<string>33454564</string>
+	</dict>
+</array>
+</plist>

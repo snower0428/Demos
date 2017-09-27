@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		793B8DD71F7A3E0100C8125A /* NSOperationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B8DD61F7A3E0100C8125A /* NSOperationDemoViewController.m */; };
+		793B8DDA1F7A3E7F00C8125A /* LoadImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B8DD91F7A3E7F00C8125A /* LoadImageOperation.m */; };
+		79AB2EA41ED43215006EA046 /* NSThreadDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AB2EA31ED43215006EA046 /* NSThreadDemoViewController.m */; };
 		79B6FDEB1EA0D91E007E758C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B6FDCF1EA0D91D007E758C /* AppDelegate.m */; };
 		79B6FDEC1EA0D91E007E758C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B6FDD01EA0D91D007E758C /* Assets.xcassets */; };
 		79B6FDED1EA0D91E007E758C /* NSString+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B6FDD51EA0D91E007E758C /* NSString+Extend.m */; };
@@ -22,6 +25,12 @@
 /* Begin PBXFileReference section */
 		6F786B93881B6A70296F2DC7 /* Pods-GCDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GCDDemo/Pods-GCDDemo.release.xcconfig"; sourceTree = "<group>"; };
 		7905CCD21E77DACB0031B8FD /* GCDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		793B8DD51F7A3E0100C8125A /* NSOperationDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationDemoViewController.h; sourceTree = "<group>"; };
+		793B8DD61F7A3E0100C8125A /* NSOperationDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationDemoViewController.m; sourceTree = "<group>"; };
+		793B8DD81F7A3E7F00C8125A /* LoadImageOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadImageOperation.h; sourceTree = "<group>"; };
+		793B8DD91F7A3E7F00C8125A /* LoadImageOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadImageOperation.m; sourceTree = "<group>"; };
+		79AB2EA21ED43215006EA046 /* NSThreadDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadDemoViewController.h; sourceTree = "<group>"; };
+		79AB2EA31ED43215006EA046 /* NSThreadDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadDemoViewController.m; sourceTree = "<group>"; };
 		79B6FDCE1EA0D91D007E758C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		79B6FDCF1EA0D91D007E758C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		79B6FDD01EA0D91D007E758C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -160,6 +169,12 @@
 			children = (
 				79B6FDE01EA0D91E007E758C /* TestViewController.h */,
 				79B6FDE11EA0D91E007E758C /* TestViewController.m */,
+				79AB2EA21ED43215006EA046 /* NSThreadDemoViewController.h */,
+				79AB2EA31ED43215006EA046 /* NSThreadDemoViewController.m */,
+				793B8DD51F7A3E0100C8125A /* NSOperationDemoViewController.h */,
+				793B8DD61F7A3E0100C8125A /* NSOperationDemoViewController.m */,
+				793B8DD81F7A3E7F00C8125A /* LoadImageOperation.h */,
+				793B8DD91F7A3E7F00C8125A /* LoadImageOperation.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -234,7 +249,7 @@
 				TargetAttributes = {
 					7905CCD11E77DACB0031B8FD = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = ZNGFQM2NH2;
+						DevelopmentTeam = J5M9U44SX2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -321,12 +336,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79AB2EA41ED43215006EA046 /* NSThreadDemoViewController.m in Sources */,
 				79B6FDF01EA0D91E007E758C /* TestViewController.m in Sources */,
 				79B6FDEE1EA0D91E007E758C /* ResourcesManager.m in Sources */,
 				79B6FDEF1EA0D91E007E758C /* TempItem.m in Sources */,
+				793B8DD71F7A3E0100C8125A /* NSOperationDemoViewController.m in Sources */,
 				79B6FDEB1EA0D91E007E758C /* AppDelegate.m in Sources */,
 				79B6FDF11EA0D91E007E758C /* FXBlurView.m in Sources */,
 				79B6FDF41EA0D91E007E758C /* ViewController.m in Sources */,
+				793B8DDA1F7A3E7F00C8125A /* LoadImageOperation.m in Sources */,
 				79B6FDF31EA0D91E007E758C /* main.m in Sources */,
 				79B6FDED1EA0D91E007E758C /* NSString+Extend.m in Sources */,
 			);
@@ -429,7 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = ZNGFQM2NH2;
+				DEVELOPMENT_TEAM = J5M9U44SX2;
 				GCC_PREFIX_HEADER = "GCDDemo/Template-Prefix.pch";
 				INFOPLIST_FILE = GCDDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -445,7 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = ZNGFQM2NH2;
+				DEVELOPMENT_TEAM = J5M9U44SX2;
 				GCC_PREFIX_HEADER = "GCDDemo/Template-Prefix.pch";
 				INFOPLIST_FILE = GCDDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

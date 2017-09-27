@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>in</string>
+		<key>cate_id</key>
+		<string>3534</string>
+		<key>id</key>
+		<string>1043501</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string></string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>拜托别黑我</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg02.jiuyan.info/in/2017/02/06/28CC1FDE-24FB-EB1C-37FD-99677797D38A.jpg</string>
+		<key>series_id</key>
+		<string>3534</string>
+		<key>series_name</key>
+		<string>拜托别黑我</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg02.jiuyan.info/in/2017/02/06/8EECE46B-D2A1-CC76-20AC-2F1C45961400.jpg?imageMogr2/format/png/thumbnail/130x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg02.jiuyan.info/in/2017/02/06/8EECE46B-D2A1-CC76-20AC-2F1C45961400.jpg</string>
+		<key>user</key>
+		<array/>
+		<key>user_id</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

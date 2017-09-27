@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>西歪歪</string>
+		<key>cate_id</key>
+		<string>643</string>
+		<key>id</key>
+		<string>1959</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string></string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>643</string>
+		<key>name</key>
+		<string>鱼鱼</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://wd4.jiuyan.info/in/2015/04/21/C0220A96-F7E0-79B6-EF6B-F0D77F8C614D.jpg?v=2</string>
+		<key>series_id</key>
+		<string>643</string>
+		<key>series_name</key>
+		<string>纹身</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://wd4.jiuyan.info/in/2015/04/21/A07FF390-6618-94D8-1614-0C626389C794.s130x130.png?v=2</string>
+		<key>url</key>
+		<string>http://wd4.jiuyan.info/in/2015/04/21/A07FF390-6618-94D8-1614-0C626389C794.png?v=2</string>
+		<key>user</key>
+		<dict/>
+		<key>user_id</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

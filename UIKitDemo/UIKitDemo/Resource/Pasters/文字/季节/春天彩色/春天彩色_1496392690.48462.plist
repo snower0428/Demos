@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>久保麦子</string>
+		<key>cate_id</key>
+		<string>283</string>
+		<key>id</key>
+		<string>20054344</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>复活节快乐</string>
+		<key>number</key>
+		<string>inm430879</string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg01.jiuyan.info/in/2017/03/14/8AFEC35E-3F1B-AC67-97E8-76AE5F958A61.jpg</string>
+		<key>series_id</key>
+		<string>13992</string>
+		<key>series_name</key>
+		<string>森林复活节</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg01.jiuyan.info/in/2017/03/14/534CB3A7-2DB3-0144-2FA3-1305349BB636.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg01.jiuyan.info/in/2017/03/14/534CB3A7-2DB3-0144-2FA3-1305349BB636.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>久保麦子漫画</string>
+			<key>number</key>
+			<string>inm430879</string>
+			<key>user_id</key>
+			<string>68259132</string>
+		</dict>
+		<key>user_id</key>
+		<string>68259132</string>
+	</dict>
+</array>
+</plist>

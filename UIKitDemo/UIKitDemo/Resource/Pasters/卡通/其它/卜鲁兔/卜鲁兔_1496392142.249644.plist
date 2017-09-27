@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>湖南善禧文化</string>
+		<key>cate_id</key>
+		<string>2355</string>
+		<key>id</key>
+		<string>20040865</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string>爱你,告白</string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>520</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg02.jiuyan.info/in/2016/05/18/3D3FE6D5-E32D-54E8-526F-8AAEF6C87712.jpg</string>
+		<key>series_id</key>
+		<string>10621</string>
+		<key>series_name</key>
+		<string>520系列</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg02.jiuyan.info/in/2016/05/18/E24F8874-5F92-896E-4643-B78532788101.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg02.jiuyan.info/in/2016/05/18/E24F8874-5F92-896E-4643-B78532788101.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>卜鲁兔</string>
+			<key>number</key>
+			<string></string>
+			<key>user_id</key>
+			<string>93841897</string>
+		</dict>
+		<key>user_id</key>
+		<string>93841897</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>小米可</string>
+		<key>cate_id</key>
+		<string>2655</string>
+		<key>id</key>
+		<string>20010601</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>739</string>
+		<key>name</key>
+		<string>毕业旅行</string>
+		<key>number</key>
+		<string>ini3328831</string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://wd2.jiuyan.info/2015/05/07/7626763C-5A32-429A-18DE-26761E590B68.jpg?v=2</string>
+		<key>series_id</key>
+		<string>2883</string>
+		<key>series_name</key>
+		<string>清新毕业季</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://wd2.jiuyan.info/2015/05/07/09EF2799-FA74-FF64-CF52-5519167A95FA.png?v=2</string>
+		<key>url</key>
+		<string>http://wd2.jiuyan.info/2015/05/07/09EF2799-FA74-FF64-CF52-5519167A95FA.png?v=2</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>MIC小米可</string>
+			<key>number</key>
+			<string>ini3328831</string>
+			<key>user_id</key>
+			<string>36165375</string>
+		</dict>
+		<key>user_id</key>
+		<string>36165375</string>
+	</dict>
+</array>
+</plist>

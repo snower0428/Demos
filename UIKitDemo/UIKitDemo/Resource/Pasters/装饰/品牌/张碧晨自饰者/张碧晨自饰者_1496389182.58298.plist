@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>in</string>
+		<key>cate_id</key>
+		<string>3316</string>
+		<key>id</key>
+		<string>1036901</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string></string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string>张碧晨,自饰者,中国好声音,封面,封面cos</string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>张碧晨自饰者</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg02.jiuyan.info/in/2016/11/22/C73901BE-5027-2A44-0CEF-69AB6E86FDC8.jpg</string>
+		<key>series_id</key>
+		<string>3316</string>
+		<key>series_name</key>
+		<string>张碧晨自饰者</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg02.jiuyan.info/in/2016/11/22/BB652E65-A111-AE60-13DE-5AC5AE54A67E.jpg?imageMogr2/format/png/thumbnail/130x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg02.jiuyan.info/in/2016/11/22/BB652E65-A111-AE60-13DE-5AC5AE54A67E.jpg</string>
+		<key>user</key>
+		<array/>
+		<key>user_id</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

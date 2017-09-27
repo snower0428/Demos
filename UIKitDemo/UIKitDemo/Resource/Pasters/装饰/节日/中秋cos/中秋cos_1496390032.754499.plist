@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>福阿包</string>
+		<key>cate_id</key>
+		<string>3146</string>
+		<key>id</key>
+		<string>1031103</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string></string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>嫦娥右手</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/09/13/361B60DE-6C1C-DF28-44A3-71F5AF0CCC61.jpg</string>
+		<key>series_id</key>
+		<string>3146</string>
+		<key>series_name</key>
+		<string>中秋cos</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/09/13/966C637C-A282-FA49-13D6-F4A2FF74C8B2.jpg?imageMogr2/format/png/thumbnail/130x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/09/13/966C637C-A282-FA49-13D6-F4A2FF74C8B2.jpg</string>
+		<key>user</key>
+		<dict/>
+		<key>user_id</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

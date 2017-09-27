@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>梦梦</string>
+		<key>cate_id</key>
+		<string>478</string>
+		<key>id</key>
+		<string>20007439</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>478</string>
+		<key>name</key>
+		<string>晚安02</string>
+		<key>number</key>
+		<string>indreamm</string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://wd2.jiuyan.info/2015/03/22/02F0FBC9-0C52-4562-E030-4A4FE476A578.jpg?v=2</string>
+		<key>series_id</key>
+		<string>1993</string>
+		<key>series_name</key>
+		<string>梦梦晚安系列</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://wd2.jiuyan.info/2015/03/22/77F24683-CCD7-FA35-B439-CBEB9A1F5AB8.png?v=2</string>
+		<key>url</key>
+		<string>http://wd2.jiuyan.info/2015/03/22/77F24683-CCD7-FA35-B439-CBEB9A1F5AB8.png?v=2</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>梦梦努力加油</string>
+			<key>number</key>
+			<string>indreamm</string>
+			<key>user_id</key>
+			<string>41266591</string>
+		</dict>
+		<key>user_id</key>
+		<string>41266591</string>
+	</dict>
+</array>
+</plist>

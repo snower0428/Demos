@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>逗比Chen</string>
+		<key>cate_id</key>
+		<string>372</string>
+		<key>id</key>
+		<string>20000924</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>372</string>
+		<key>name</key>
+		<string>发红包啦</string>
+		<key>number</key>
+		<string>ChenEr0216</string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://wd3.jiuyan.info/2014/12/28/BB76FF3A-C576-DEE8-607C-16961C6DA817.jpg?v=2</string>
+		<key>series_id</key>
+		<string>334</string>
+		<key>series_name</key>
+		<string>萝卜兔3</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://wd3.jiuyan.info/2014/12/28/9DC38CE6-A307-AC8D-B48E-A1823E541BF5.png?v=2</string>
+		<key>url</key>
+		<string>http://wd3.jiuyan.info/2014/12/28/9DC38CE6-A307-AC8D-B48E-A1823E541BF5.png?v=2</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>逗比Chen</string>
+			<key>number</key>
+			<string>ChenEr0216</string>
+			<key>user_id</key>
+			<string>32665392</string>
+		</dict>
+		<key>user_id</key>
+		<string>32665392</string>
+	</dict>
+</array>
+</plist>

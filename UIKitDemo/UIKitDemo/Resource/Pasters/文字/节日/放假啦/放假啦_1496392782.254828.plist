@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>L.Lin果</string>
+		<key>cate_id</key>
+		<string>1111</string>
+		<key>id</key>
+		<string>20047519</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>不想读书</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/10/06/E4789689-D4F5-A6CF-C0A0-1591A1A070D9.jpg</string>
+		<key>series_id</key>
+		<string>12285</string>
+		<key>series_name</key>
+		<string>节后症</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/10/06/7F188939-EB84-B16C-5AEE-408A0543838A.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/10/06/7F188939-EB84-B16C-5AEE-408A0543838A.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>L.Lin果</string>
+			<key>number</key>
+			<string></string>
+			<key>user_id</key>
+			<string>94077859</string>
+		</dict>
+		<key>user_id</key>
+		<string>94077859</string>
+	</dict>
+</array>
+</plist>

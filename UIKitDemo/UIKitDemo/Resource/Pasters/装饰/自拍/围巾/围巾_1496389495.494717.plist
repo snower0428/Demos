@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>小熊奶黄包</string>
+		<key>cate_id</key>
+		<string>2213</string>
+		<key>id</key>
+		<string>20049499</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>格兰芬多围巾</string>
+		<key>number</key>
+		<string>HD19930821</string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/11/30/B7373AF5-1F67-D8FE-A50E-1653A1D58A0F.jpg</string>
+		<key>series_id</key>
+		<string>12781</string>
+		<key>series_name</key>
+		<string>哈利波特COS1</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/11/30/EA467DDA-AA2C-604F-A839-7430CBE72584.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/11/30/EA467DDA-AA2C-604F-A839-7430CBE72584.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>小熊奶黄包</string>
+			<key>number</key>
+			<string>HD19930821</string>
+			<key>user_id</key>
+			<string>35021528</string>
+		</dict>
+		<key>user_id</key>
+		<string>35021528</string>
+	</dict>
+</array>
+</plist>

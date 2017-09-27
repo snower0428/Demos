@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>in</string>
+		<key>cate_id</key>
+		<string>3047</string>
+		<key>id</key>
+		<string>28802</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string></string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>天猫新风尚－logo</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg05.jiuyan.info/in/2016/08/23/100F4817-581D-FAB2-0C28-7D8588476B86.jpg</string>
+		<key>series_id</key>
+		<string>3047</string>
+		<key>series_name</key>
+		<string>天猫新风尚</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg05.jiuyan.info/in/2016/08/23/9F48EBC0-4BFF-069E-0E7C-3A7989146957.jpg?imageMogr2/format/png/thumbnail/130x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg05.jiuyan.info/in/2016/08/23/9F48EBC0-4BFF-069E-0E7C-3A7989146957.jpg</string>
+		<key>user</key>
+		<dict/>
+		<key>user_id</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

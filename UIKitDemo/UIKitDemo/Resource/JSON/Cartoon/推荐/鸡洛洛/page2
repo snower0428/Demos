@@ -1,0 +1,52 @@
+{
+    "succ": true, 
+    "code": "0", 
+    "data": {
+        "id": "3392", 
+        "name": "鸡洛洛", 
+        "pid": "2", 
+        "new_pid": "1619", 
+        "row_count": "0", 
+        "icon": "", 
+        "sort": "600", 
+        "new_sort": "600", 
+        "paster_count": "4", 
+        "rec_cate": "", 
+        "alipay_idnex_rec": "0", 
+        "alipay_type_rec": "0", 
+        "created_at": "1483627339", 
+        "updated_at": "2017-04-18 16:50:01", 
+        "is_diy_rec": "0", 
+        "next": "0", 
+        "paster": [
+            {
+                "id": "20051081", 
+                "name": "大吉大利", 
+                "cate_id": "3392", 
+                "man_cate_id": "0", 
+                "url": "http://inimg02.jiuyan.info/in/2017/01/05/FDEFEFAE-718C-06FC-9489-07CDBA6FD7A8.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!", 
+                "sample_url": "http://inimg02.jiuyan.info/in/2017/01/05/EDF83C20-1268-C4FB-67B2-08DBE61BD476.jpg", 
+                "is_locked": "no", 
+                "author": "多多酱万岁", 
+                "number": "duoduojws", 
+                "sort": "", 
+                "parent_id": "", 
+                "is_new": false, 
+                "thumb_url": "http://inimg02.jiuyan.info/in/2017/01/05/FDEFEFAE-718C-06FC-9489-07CDBA6FD7A8.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!", 
+                "is_favorite": false, 
+                "series_id": "13177", 
+                "series_name": "鸡洛洛", 
+                "user_id": "37800638", 
+                "user": {
+                    "user_id": "37800638", 
+                    "number": "duoduojws", 
+                    "in_name": "蚯蚓姑娘"
+                }, 
+                "level_id": "0", 
+                "keyword": ""
+            }
+        ]
+    }, 
+    "msg": "", 
+    "timestamp": "1496305252"
+}

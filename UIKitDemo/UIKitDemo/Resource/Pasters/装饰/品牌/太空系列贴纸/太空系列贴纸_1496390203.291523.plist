@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>汐沥</string>
+		<key>cate_id</key>
+		<string>3326</string>
+		<key>id</key>
+		<string>1038809</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string></string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string>太空,态度,星际,宇宙,网易</string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>次元星星球</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg02.jiuyan.info/in/2016/12/13/62A98BE0-35FD-79D5-00E8-F9A75E643E44.jpg</string>
+		<key>series_id</key>
+		<string>3326</string>
+		<key>series_name</key>
+		<string>太空系列贴纸</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg02.jiuyan.info/in/2016/12/13/AB9FC682-6DD7-6FA9-8458-ACA56C7A1276.jpg?imageMogr2/format/png/thumbnail/130x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg02.jiuyan.info/in/2016/12/13/AB9FC682-6DD7-6FA9-8458-ACA56C7A1276.jpg</string>
+		<key>user</key>
+		<dict/>
+		<key>user_id</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>Rainbow</string>
+		<key>cate_id</key>
+		<string>2977</string>
+		<key>id</key>
+		<string>20044389</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>国际老虎日</string>
+		<key>number</key>
+		<string>inq751777</string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg02.jiuyan.info/in/2016/07/27/52522294-860A-27F2-CDC7-E6A462111558.jpg</string>
+		<key>series_id</key>
+		<string>11503</string>
+		<key>series_name</key>
+		<string>国际老虎日</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg02.jiuyan.info/in/2016/07/27/B687000D-31EF-FEF2-5732-CCFEF42E2B99.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg02.jiuyan.info/in/2016/07/27/B687000D-31EF-FEF2-5732-CCFEF42E2B99.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>Rainbow_Cxh_</string>
+			<key>number</key>
+			<string>inq751777</string>
+			<key>user_id</key>
+			<string>71480984</string>
+		</dict>
+		<key>user_id</key>
+		<string>71480984</string>
+	</dict>
+</array>
+</plist>

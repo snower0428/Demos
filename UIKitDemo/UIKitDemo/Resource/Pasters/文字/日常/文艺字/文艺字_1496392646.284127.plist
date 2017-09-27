@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>in</string>
+		<key>cate_id</key>
+		<string>3158</string>
+		<key>id</key>
+		<string>1032602</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string></string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>关于美好的味道</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg05.jiuyan.info/in/2016/09/30/529A566E-E0ED-6582-6E41-B69BE388E68A.jpg</string>
+		<key>series_id</key>
+		<string>3158</string>
+		<key>series_name</key>
+		<string>文艺字</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg05.jiuyan.info/in/2016/09/30/EE2AA7D0-1FEF-7179-F18C-37331C662FE6.jpg?imageMogr2/format/png/thumbnail/130x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg05.jiuyan.info/in/2016/09/30/EE2AA7D0-1FEF-7179-F18C-37331C662FE6.jpg</string>
+		<key>user</key>
+		<dict/>
+		<key>user_id</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

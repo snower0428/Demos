@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>瓜小西</string>
+		<key>cate_id</key>
+		<string>344</string>
+		<key>id</key>
+		<string>20019187</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>344</string>
+		<key>name</key>
+		<string>抱抱西瓜</string>
+		<key>number</key>
+		<string>xalayo</string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg07.jiuyan.info/in/2015/07/22/CEE8F872-F3D9-466F-91B3-F0020027B42C.jpg</string>
+		<key>series_id</key>
+		<string>5203</string>
+		<key>series_name</key>
+		<string>瓜小西夏日贴纸</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg07.jiuyan.info/in/2015/07/22/5595FF95-4899-A937-DA9A-4B9A0518025E.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg07.jiuyan.info/in/2015/07/22/5595FF95-4899-A937-DA9A-4B9A0518025E.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>瓜小西</string>
+			<key>number</key>
+			<string>xalayo</string>
+			<key>user_id</key>
+			<string>35910588</string>
+		</dict>
+		<key>user_id</key>
+		<string>35910588</string>
+	</dict>
+</array>
+</plist>

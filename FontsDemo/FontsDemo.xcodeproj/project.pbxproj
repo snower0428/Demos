@@ -245,7 +245,7 @@
 				TargetAttributes = {
 					79FA3ACF1E13D8B900A5AC2E = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = ZNGFQM2NH2;
+						DevelopmentTeam = J5M9U44SX2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -464,7 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = ZNGFQM2NH2;
+				DEVELOPMENT_TEAM = J5M9U44SX2;
 				GCC_PREFIX_HEADER = "FontsDemo/Fonts-Prefix.pch";
 				INFOPLIST_FILE = FontsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -480,7 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = ZNGFQM2NH2;
+				DEVELOPMENT_TEAM = J5M9U44SX2;
 				GCC_PREFIX_HEADER = "FontsDemo/Fonts-Prefix.pch";
 				INFOPLIST_FILE = FontsDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

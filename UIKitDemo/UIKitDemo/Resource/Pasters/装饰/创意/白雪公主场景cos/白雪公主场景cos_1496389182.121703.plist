@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>潘多拉</string>
+		<key>cate_id</key>
+		<string>4084</string>
+		<key>id</key>
+		<string>25902</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string></string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string>潘多拉</string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>潘多拉-白雪公主</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg05.jiuyan.info/in/2016/07/01/DEC2BBA1-A9D1-157A-1987-EDDCAF781451.jpg</string>
+		<key>series_id</key>
+		<string>4084</string>
+		<key>series_name</key>
+		<string>白雪公主场景cos</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg05.jiuyan.info/in/2016/07/01/D0FAF9C6-4B13-BE56-BD83-9DEACF5E4D1E.jpg?imageMogr2/format/png/thumbnail/130x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg05.jiuyan.info/in/2016/07/01/D0FAF9C6-4B13-BE56-BD83-9DEACF5E4D1E.jpg</string>
+		<key>user</key>
+		<array/>
+		<key>user_id</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

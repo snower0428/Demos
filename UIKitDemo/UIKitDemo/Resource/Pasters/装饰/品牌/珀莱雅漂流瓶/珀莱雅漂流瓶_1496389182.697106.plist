@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>in</string>
+		<key>cate_id</key>
+		<string>4126</string>
+		<key>id</key>
+		<string>1053301</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string></string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>珀莱雅漂流瓶</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg02.jiuyan.info/in/2017/05/24/368211E0-81B0-1126-FBFE-886186FEE00D.jpg</string>
+		<key>series_id</key>
+		<string>4126</string>
+		<key>series_name</key>
+		<string>珀莱雅漂流瓶</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg02.jiuyan.info/in/2017/05/24/DE559AB7-3620-9996-DA80-38215C1A6BD1.jpg?imageMogr2/format/png/thumbnail/130x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg02.jiuyan.info/in/2017/05/24/DE559AB7-3620-9996-DA80-38215C1A6BD1.jpg</string>
+		<key>user</key>
+		<array/>
+		<key>user_id</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

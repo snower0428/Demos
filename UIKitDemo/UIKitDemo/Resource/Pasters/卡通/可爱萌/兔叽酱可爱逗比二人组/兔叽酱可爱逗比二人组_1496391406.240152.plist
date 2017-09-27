@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>小兔子oH2x</string>
+		<key>cate_id</key>
+		<string>2523</string>
+		<key>id</key>
+		<string>20038405</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>兔叽酱萌萌哒趴学生</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg02.jiuyan.info/in/2016/03/23/2AFEC54F-8285-A022-BB92-59F5AC8E3A2F.jpg</string>
+		<key>series_id</key>
+		<string>10005</string>
+		<key>series_name</key>
+		<string>兔叽酱萌哒哒卡通</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg02.jiuyan.info/in/2016/03/23/7CB64190-20CD-37BD-90B0-AE24BB88B38E.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg02.jiuyan.info/in/2016/03/23/7CB64190-20CD-37BD-90B0-AE24BB88B38E.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>小兔子oH2x</string>
+			<key>number</key>
+			<string></string>
+			<key>user_id</key>
+			<string>33162190</string>
+		</dict>
+		<key>user_id</key>
+		<string>33162190</string>
+	</dict>
+</array>
+</plist>

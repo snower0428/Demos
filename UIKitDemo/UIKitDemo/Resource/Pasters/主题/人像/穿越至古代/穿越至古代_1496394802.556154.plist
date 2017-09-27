@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>in</string>
+		<key>cate_id</key>
+		<string>255</string>
+		<key>id</key>
+		<string>11501</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string></string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string>古装</string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>255</string>
+		<key>name</key>
+		<string>花千骨妖神妆</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg02.jiuyan.info/in/2015/08/31/2334D3B4-9979-E199-F3CA-847C750A8E3B.jpg</string>
+		<key>series_id</key>
+		<string>255</string>
+		<key>series_name</key>
+		<string>眉部</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg02.jiuyan.info/in/2015/08/31/350407F2-9121-56AA-E1F0-30E84128E6E9.jpg?imageMogr2/format/png/thumbnail/130x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg02.jiuyan.info/in/2015/08/31/350407F2-9121-56AA-E1F0-30E84128E6E9.jpg</string>
+		<key>user</key>
+		<array/>
+		<key>user_id</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>沁蓝LULU</string>
+		<key>cate_id</key>
+		<string>3033</string>
+		<key>id</key>
+		<string>20045207</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>我对明天不报希望</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/08/11/E4FD78E7-1F2A-E0D2-F067-7A1F53B725F5.jpg</string>
+		<key>series_id</key>
+		<string>11707</string>
+		<key>series_name</key>
+		<string>洪荒之力</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/08/11/0C7B8121-BAF7-5094-5DAB-0E802D036459.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/08/11/0C7B8121-BAF7-5094-5DAB-0E802D036459.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>沁蓝LULU</string>
+			<key>number</key>
+			<string></string>
+			<key>user_id</key>
+			<string>101111747</string>
+		</dict>
+		<key>user_id</key>
+		<string>101111747</string>
+	</dict>
+</array>
+</plist>

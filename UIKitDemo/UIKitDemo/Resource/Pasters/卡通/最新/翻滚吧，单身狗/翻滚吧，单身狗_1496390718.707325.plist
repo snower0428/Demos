@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>in</string>
+		<key>cate_id</key>
+		<string>4106</string>
+		<key>id</key>
+		<string>1052302</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string></string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>吃包狗粮压压惊</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg05.jiuyan.info/in/2017/05/19/DA82A96D-46D6-C7A4-4086-E1AAA84BD5CC.jpg</string>
+		<key>series_id</key>
+		<string>4106</string>
+		<key>series_name</key>
+		<string>翻滚吧，单身狗</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg05.jiuyan.info/in/2017/05/19/080DF686-0AB7-19FA-7683-760DAFACD9F7.jpg?imageMogr2/format/png/thumbnail/130x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg05.jiuyan.info/in/2017/05/19/080DF686-0AB7-19FA-7683-760DAFACD9F7.jpg</string>
+		<key>user</key>
+		<dict/>
+		<key>user_id</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

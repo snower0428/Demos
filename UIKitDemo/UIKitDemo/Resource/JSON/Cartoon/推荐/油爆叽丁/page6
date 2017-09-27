@@ -1,0 +1,79 @@
+
+{
+    "succ": true, 
+    "code": "0", 
+    "data": {
+        "id": "3098", 
+        "name": "油爆叽丁", 
+        "pid": "2", 
+        "new_pid": "1619", 
+        "row_count": "0", 
+        "icon": "", 
+        "sort": "600", 
+        "new_sort": "600", 
+        "paster_count": "4", 
+        "rec_cate": "", 
+        "alipay_idnex_rec": "0", 
+        "alipay_type_rec": "0", 
+        "created_at": "1473323795", 
+        "updated_at": "2017-04-20 04:20:20", 
+        "is_diy_rec": "0", 
+        "next": "0", 
+        "paster": [
+            {
+                "id": "20046379", 
+                "name": "打球", 
+                "cate_id": "3098", 
+                "man_cate_id": "0", 
+                "url": "http://inimg07.jiuyan.info/in/2016/09/07/45B841B5-A46E-8B12-C26E-3E6E19D0E2DA.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!", 
+                "sample_url": "http://inimg07.jiuyan.info/in/2016/09/07/D8D55943-D146-451B-E47B-C716F6BDC398.jpg", 
+                "is_locked": "no", 
+                "author": "油爆叽丁", 
+                "number": "inh3176119", 
+                "sort": "", 
+                "parent_id": "", 
+                "is_new": false, 
+                "thumb_url": "http://inimg07.jiuyan.info/in/2016/09/07/45B841B5-A46E-8B12-C26E-3E6E19D0E2DA.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!", 
+                "is_favorite": false, 
+                "series_id": "12001", 
+                "series_name": "油爆叽丁の运动篇", 
+                "user_id": "34655906", 
+                "user": {
+                    "user_id": "34655906", 
+                    "number": "inh3176119", 
+                    "in_name": "油爆叽丁"
+                }, 
+                "level_id": "0", 
+                "keyword": ""
+            }, 
+            {
+                "id": "20053584", 
+                "name": "油爆叽丁早安", 
+                "cate_id": "3098", 
+                "man_cate_id": "0", 
+                "url": "http://inimg01.jiuyan.info/in/2017/02/23/98D6C1EF-DCCA-CB54-34C3-3434784B037F.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!", 
+                "sample_url": "http://inimg01.jiuyan.info/in/2017/02/23/97ED903A-1406-22E0-B4D8-36C0BAB58551.jpg", 
+                "is_locked": "no", 
+                "author": "油爆叽丁", 
+                "number": "inh3176119", 
+                "sort": "", 
+                "parent_id": "", 
+                "is_new": false, 
+                "thumb_url": "http://inimg01.jiuyan.info/in/2017/02/23/98D6C1EF-DCCA-CB54-34C3-3434784B037F.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!", 
+                "is_favorite": false, 
+                "series_id": "13802", 
+                "series_name": "油爆叽丁开心一天", 
+                "user_id": "34655906", 
+                "user": {
+                    "user_id": "34655906", 
+                    "number": "inh3176119", 
+                    "in_name": "油爆叽丁"
+                }, 
+                "level_id": "0", 
+                "keyword": ""
+            }
+        ]
+    }, 
+    "msg": "", 
+    "timestamp": "1496305098"
+}

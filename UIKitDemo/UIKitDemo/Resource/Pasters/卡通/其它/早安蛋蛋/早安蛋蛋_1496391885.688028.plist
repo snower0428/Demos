@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>贤者</string>
+		<key>cate_id</key>
+		<string>3061</string>
+		<key>id</key>
+		<string>20050399</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>吃蛋糕</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/12/21/B50CDC54-7E73-5714-8AB9-619C79515C34.jpg</string>
+		<key>series_id</key>
+		<string>13005</string>
+		<key>series_name</key>
+		<string>早安蛋蛋好吃哒</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/12/21/6354D150-6749-A883-8628-A3CB610E0582.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/12/21/6354D150-6749-A883-8628-A3CB610E0582.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>人员爆满嘣加我</string>
+			<key>number</key>
+			<string></string>
+			<key>user_id</key>
+			<string>106370774</string>
+		</dict>
+		<key>user_id</key>
+		<string>106370774</string>
+	</dict>
+</array>
+</plist>

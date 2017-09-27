@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>三树</string>
+		<key>cate_id</key>
+		<string>1921</string>
+		<key>id</key>
+		<string>20022847</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>1921</string>
+		<key>name</key>
+		<string>戒酒</string>
+		<key>number</key>
+		<string>sanshuart</string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg07.jiuyan.info/in/2015/07/21/C4493191-A67A-A9F3-9801-EE4B8F8BFB96.jpg</string>
+		<key>series_id</key>
+		<string>6127</string>
+		<key>series_name</key>
+		<string>小人物系列</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg07.jiuyan.info/in/2015/07/21/0DC44503-86CB-C67C-C25C-DE9A27634146.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg07.jiuyan.info/in/2015/07/21/0DC44503-86CB-C67C-C25C-DE9A27634146.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>三树</string>
+			<key>number</key>
+			<string>sanshuart</string>
+			<key>user_id</key>
+			<string>69016336</string>
+		</dict>
+		<key>user_id</key>
+		<string>69016336</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>飞客流依</string>
+		<key>cate_id</key>
+		<string>3226</string>
+		<key>id</key>
+		<string>20013157</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>231</string>
+		<key>name</key>
+		<string>萌物耳朵系列-豹子</string>
+		<key>number</key>
+		<string>int555795</string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg02.jiuyan.info/in/2015/06/04/16EA7B3F-0BEA-FF87-CDFA-CB1344B2A601.jpg</string>
+		<key>series_id</key>
+		<string>3597</string>
+		<key>series_name</key>
+		<string>萌物耳朵系列</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg02.jiuyan.info/in/2015/06/04/3EC4AB2E-2206-DF10-536C-EC7DD66BB410.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg02.jiuyan.info/in/2015/06/04/3EC4AB2E-2206-DF10-536C-EC7DD66BB410.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>飞客流依</string>
+			<key>number</key>
+			<string>int555795</string>
+			<key>user_id</key>
+			<string>69514841</string>
+		</dict>
+		<key>user_id</key>
+		<string>69514841</string>
+	</dict>
+</array>
+</plist>

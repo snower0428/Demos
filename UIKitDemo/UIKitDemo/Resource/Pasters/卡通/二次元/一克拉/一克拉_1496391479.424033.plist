@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>湖南善禧文化</string>
+		<key>cate_id</key>
+		<string>2365</string>
+		<key>id</key>
+		<string>20039483</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>人丑就得多干活</string>
+		<key>number</key>
+		<string></string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/04/20/EBDB50DD-7F6D-9DA3-5DDA-644B901958D1.jpg</string>
+		<key>series_id</key>
+		<string>10275</string>
+		<key>series_name</key>
+		<string>一克拉系列之自知</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/04/19/F461F271-2700-3B88-A2AA-731B7A80BB4C.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/04/19/F461F271-2700-3B88-A2AA-731B7A80BB4C.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>卜鲁兔</string>
+			<key>number</key>
+			<string></string>
+			<key>user_id</key>
+			<string>93841897</string>
+		</dict>
+		<key>user_id</key>
+		<string>93841897</string>
+	</dict>
+</array>
+</plist>

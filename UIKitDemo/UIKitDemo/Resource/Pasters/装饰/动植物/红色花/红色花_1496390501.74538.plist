@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>白粥小姐</string>
+		<key>cate_id</key>
+		<string>249</string>
+		<key>id</key>
+		<string>20012665</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>249</string>
+		<key>name</key>
+		<string>花花</string>
+		<key>number</key>
+		<string>in751295244</string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg02.jiuyan.info/in/2015/05/30/4FDE5B9B-1317-3E9F-F6C7-A98C0C8EF0CE.jpg</string>
+		<key>series_id</key>
+		<string>3413</string>
+		<key>series_name</key>
+		<string>眼睛亮晶晶</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg02.jiuyan.info/in/2015/05/30/66F64F92-459A-B2DD-1162-E09397436ADC.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg02.jiuyan.info/in/2015/05/30/66F64F92-459A-B2DD-1162-E09397436ADC.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>白粥小姐c</string>
+			<key>number</key>
+			<string>in751295244</string>
+			<key>user_id</key>
+			<string>44805296</string>
+		</dict>
+		<key>user_id</key>
+		<string>44805296</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>羡事宝</string>
+		<key>cate_id</key>
+		<string>663</string>
+		<key>id</key>
+		<string>20008157</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string></string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>663</string>
+		<key>name</key>
+		<string>一人食</string>
+		<key>number</key>
+		<string>HELLO_BABY</string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://wd6.jiuyan.info/2015/04/02/9115588A-A2FC-583A-5BA2-99FC16AC7C8C.jpg?v=2</string>
+		<key>series_id</key>
+		<string>2179</string>
+		<key>series_name</key>
+		<string>美食水印</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://wd6.jiuyan.info/2015/04/02/A6ED91C5-C8A5-6DBF-A023-82A6EFCC850A.png?v=2</string>
+		<key>url</key>
+		<string>http://wd6.jiuyan.info/2015/04/02/A6ED91C5-C8A5-6DBF-A023-82A6EFCC850A.png?v=2</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>羡事宝</string>
+			<key>number</key>
+			<string>HELLO_BABY</string>
+			<key>user_id</key>
+			<string>37498109</string>
+		</dict>
+		<key>user_id</key>
+		<string>37498109</string>
+	</dict>
+</array>
+</plist>

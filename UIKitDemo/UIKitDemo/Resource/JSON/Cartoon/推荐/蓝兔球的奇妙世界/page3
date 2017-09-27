@@ -1,0 +1,48 @@
+{
+    "succ": true, 
+    "code": "0", 
+    "data": {
+        "id": "2925", 
+        "name": "蓝兔球的奇妙世界", 
+        "pid": "2", 
+        "new_pid": "1619", 
+        "row_count": "0", 
+        "icon": "", 
+        "sort": "999", 
+        "new_sort": "999", 
+        "paster_count": "12", 
+        "rec_cate": "", 
+        "alipay_idnex_rec": "75", 
+        "alipay_type_rec": "0", 
+        "created_at": "1469511229", 
+        "updated_at": "2017-01-06 14:40:26", 
+        "is_diy_rec": "0", 
+        "next": "0", 
+        "paster": [
+            {
+                "id": "27807", 
+                "name": "蓝兔球倒影", 
+                "cate_id": "2925", 
+                "man_cate_id": "0", 
+                "url": "http://inimg07.jiuyan.info/in/2016/07/26/E9D9251C-080D-0E1A-7CD5-CEA7EF694BD4.jpg", 
+                "sample_url": "http://inimg07.jiuyan.info/in/2016/07/26/31BA7A9F-1C5A-D8EC-148F-85F8E4859475.jpg", 
+                "is_locked": "", 
+                "author": "西小喵", 
+                "number": "", 
+                "sort": "", 
+                "parent_id": "", 
+                "is_new": false, 
+                "thumb_url": "http://inimg07.jiuyan.info/in/2016/07/26/E9D9251C-080D-0E1A-7CD5-CEA7EF694BD4.jpg?imageMogr2/format/png/thumbnail/130x%3E/quality/80!", 
+                "is_favorite": false, 
+                "series_id": "2925", 
+                "series_name": "蓝兔球的奇妙世界", 
+                "user_id": "", 
+                "user": { }, 
+                "level_id": "0", 
+                "keyword": ""
+            }
+        ]
+    }, 
+    "msg": "", 
+    "timestamp": "1496304449"
+}

@@ -1,0 +1,78 @@
+{
+    "succ": true, 
+    "code": "0", 
+    "data": {
+        "id": "4074", 
+        "name": "ChuChu", 
+        "pid": "2", 
+        "new_pid": "2939", 
+        "row_count": "0", 
+        "icon": "", 
+        "sort": "1000", 
+        "new_sort": "999", 
+        "paster_count": "4", 
+        "rec_cate": "", 
+        "alipay_idnex_rec": "0", 
+        "alipay_type_rec": "0", 
+        "created_at": "1494916636", 
+        "updated_at": "2017-05-23 05:08:02", 
+        "is_diy_rec": "0", 
+        "next": "0", 
+        "paster": [
+            {
+                "id": "20057360", 
+                "name": "不要嘛~", 
+                "cate_id": "4074", 
+                "man_cate_id": "0", 
+                "url": "http://inimg01.jiuyan.info/in/2017/05/16/4CD6B440-979D-3E2A-C64C-FC2021628B27.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!", 
+                "sample_url": "http://inimg01.jiuyan.info/in/2017/05/16/B1693066-CD6D-F6DE-1AD4-3F4469403007.jpg", 
+                "is_locked": "no", 
+                "author": "初初爸比", 
+                "number": "", 
+                "sort": "", 
+                "parent_id": "", 
+                "is_new": false, 
+                "thumb_url": "http://inimg01.jiuyan.info/in/2017/05/16/4CD6B440-979D-3E2A-C64C-FC2021628B27.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!", 
+                "is_favorite": false, 
+                "series_id": "14768", 
+                "series_name": "ChuChu气气", 
+                "user_id": "112863310", 
+                "user": {
+                    "user_id": "112863310", 
+                    "number": "", 
+                    "in_name": "chuchu天使同萌"
+                }, 
+                "level_id": "0", 
+                "keyword": ""
+            }, 
+            {
+                "id": "20057358", 
+                "name": "上来就是一脚！", 
+                "cate_id": "4074", 
+                "man_cate_id": "0", 
+                "url": "http://inimg05.jiuyan.info/in/2017/05/16/7FABC541-9563-C4D9-0FA5-48EA7580B2E4.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!", 
+                "sample_url": "http://inimg05.jiuyan.info/in/2017/05/16/2B1405A6-1A54-545B-D9C1-56B73BB25EBF.jpg", 
+                "is_locked": "no", 
+                "author": "初初爸比", 
+                "number": "", 
+                "sort": "", 
+                "parent_id": "", 
+                "is_new": false, 
+                "thumb_url": "http://inimg05.jiuyan.info/in/2017/05/16/7FABC541-9563-C4D9-0FA5-48EA7580B2E4.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!", 
+                "is_favorite": false, 
+                "series_id": "14768", 
+                "series_name": "ChuChu气气", 
+                "user_id": "112863310", 
+                "user": {
+                    "user_id": "112863310", 
+                    "number": "", 
+                    "in_name": "chuchu天使同萌"
+                }, 
+                "level_id": "0", 
+                "keyword": ""
+            }
+        ]
+    }, 
+    "msg": "", 
+    "timestamp": "1496303728"
+}

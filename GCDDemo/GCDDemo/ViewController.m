@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "TestViewController.h"
+#import "NSThreadDemoViewController.h"
+#import "NSOperationDemoViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -22,12 +24,12 @@
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 	
+	self.title = @"Demos";
+	self.view.backgroundColor = [UIColor whiteColor];
+	
 	if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)]) {
 		[self setEdgesForExtendedLayout:UIRectEdgeNone];
 	}
-	
-	self.title = @"Demos";
-	self.view.backgroundColor = [UIColor whiteColor];
 	
 	[self configureTableView];
 	[self createTableView];
@@ -43,6 +45,8 @@
 - (void)configureTableView
 {
 	self.arrayData = @[@[@"Test", [TestViewController class]],
+					   @[@"NSThread", [NSThreadDemoViewController class]],
+					   @[@"NSOperation", [NSOperationDemoViewController class]],
 					   ];
 }
 

@@ -1,0 +1,48 @@
+{
+    "succ": true, 
+    "code": "0", 
+    "data": {
+        "id": "4106", 
+        "name": "翻滚吧，单身狗", 
+        "pid": "2", 
+        "new_pid": "2939", 
+        "row_count": "0", 
+        "icon": "", 
+        "sort": "1100", 
+        "new_sort": "1099", 
+        "paster_count": "8", 
+        "rec_cate": "", 
+        "alipay_idnex_rec": "0", 
+        "alipay_type_rec": "0", 
+        "created_at": "1495174032", 
+        "updated_at": "2017-05-26 05:08:02", 
+        "is_diy_rec": "0", 
+        "next": "0", 
+        "paster": [
+            {
+                "id": "1052302", 
+                "name": "吃包狗粮压压惊", 
+                "cate_id": "4106", 
+                "man_cate_id": "0", 
+                "url": "http://inimg05.jiuyan.info/in/2017/05/19/080DF686-0AB7-19FA-7683-760DAFACD9F7.jpg", 
+                "sample_url": "http://inimg05.jiuyan.info/in/2017/05/19/DA82A96D-46D6-C7A4-4086-E1AAA84BD5CC.jpg", 
+                "is_locked": "", 
+                "author": "in", 
+                "number": "", 
+                "sort": "", 
+                "parent_id": "", 
+                "is_new": false, 
+                "thumb_url": "http://inimg05.jiuyan.info/in/2017/05/19/080DF686-0AB7-19FA-7683-760DAFACD9F7.jpg?imageMogr2/format/png/thumbnail/130x%3E/quality/80!", 
+                "is_favorite": false, 
+                "series_id": "4106", 
+                "series_name": "翻滚吧，单身狗", 
+                "user_id": "", 
+                "user": { }, 
+                "level_id": "0", 
+                "keyword": ""
+            }
+        ]
+    }, 
+    "msg": "", 
+    "timestamp": "1496302944"
+}

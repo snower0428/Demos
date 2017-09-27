@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>author</key>
+		<string>Veaco乐乐</string>
+		<key>cate_id</key>
+		<string>527</string>
+		<key>id</key>
+		<string>20047631</string>
+		<key>is_favorite</key>
+		<false/>
+		<key>is_locked</key>
+		<string>no</string>
+		<key>is_new</key>
+		<false/>
+		<key>keyword</key>
+		<string>卖萌节,卖萌,萌萌哒,萌</string>
+		<key>level_id</key>
+		<string>0</string>
+		<key>man_cate_id</key>
+		<string>0</string>
+		<key>name</key>
+		<string>卖萌节</string>
+		<key>number</key>
+		<string>ind1169165</string>
+		<key>parent_id</key>
+		<string></string>
+		<key>sample_url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/10/09/4C561FF4-B4AD-214C-84CC-A8A483D50C59.jpg</string>
+		<key>series_id</key>
+		<string>12313</string>
+		<key>series_name</key>
+		<string>一起来卖萌！</string>
+		<key>sort</key>
+		<string></string>
+		<key>thumb_url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/10/09/3A7EAA5A-4460-3C11-9D1C-AEF5C48E0432.jpg?imageMogr2/format/png/thumbnail/210x%3E/quality/80!</string>
+		<key>url</key>
+		<string>http://inimg07.jiuyan.info/in/2016/10/09/3A7EAA5A-4460-3C11-9D1C-AEF5C48E0432.jpg?imageMogr2/format/png/thumbnail/320x%3E/quality/80!</string>
+		<key>user</key>
+		<dict>
+			<key>in_name</key>
+			<string>Veaco乐乐。</string>
+			<key>number</key>
+			<string>ind1169165</string>
+			<key>user_id</key>
+			<string>15105547</string>
+		</dict>
+		<key>user_id</key>
+		<string>15105547</string>
+	</dict>
+</array>
+</plist>
