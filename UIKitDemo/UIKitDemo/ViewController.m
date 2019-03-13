@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "TestViewController.h"
+#import "DemoViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -38,11 +39,17 @@
 	// Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+	[super viewWillAppear:animated];
+}
+
 #pragma mark - Private
 
 - (void)configureTableView
 {
 	self.arrayData = @[@[@"Test", [TestViewController class]],
+					   @[@"Demo", [DemoViewController class]],
 					   ];
 }
 

@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		795C95271FD6749D0010FAB9 /* BecauseOfYou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 795C95261FD6749D0010FAB9 /* BecauseOfYou.mp3 */; };
+		798F77371FD81268003E67F6 /* showtest.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 798F77361FD81267003E67F6 /* showtest.mp4 */; };
+		798F773E1FD81513003E67F6 /* Charlie The Unicorn.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 798F77381FD81512003E67F6 /* Charlie The Unicorn.m4v */; };
+		798F773F1FD81513003E67F6 /* Hubblecast.mov in Resources */ = {isa = PBXBuildFile; fileRef = 798F77391FD81512003E67F6 /* Hubblecast.mov */; };
+		798F77401FD81513003E67F6 /* 03 Demo ID3v2.3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 798F773A1FD81512003E67F6 /* 03 Demo ID3v2.3.mp3 */; };
+		798F77411FD81513003E67F6 /* 02 Demo ID3v2.2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 798F773B1FD81512003E67F6 /* 02 Demo ID3v2.2.mp3 */; };
+		798F77421FD81513003E67F6 /* 01 Demo AAC.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 798F773C1FD81512003E67F6 /* 01 Demo AAC.m4a */; };
+		798F77431FD81513003E67F6 /* 04 Demo ID3v2.4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 798F773D1FD81513003E67F6 /* 04 Demo ID3v2.4.mp3 */; };
+		798F77471FD815EF003E67F6 /* AVMetadataItem+THAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798F77461FD815EF003E67F6 /* AVMetadataItem+THAdditions.m */; };
+		79FBDC881FD5518B0053DCCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FBDC6C1FD5518A0053DCCF /* AppDelegate.m */; };
+		79FBDC891FD5518B0053DCCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79FBDC6D1FD5518A0053DCCF /* Assets.xcassets */; };
+		79FBDC8A1FD5518B0053DCCF /* NSString+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FBDC721FD5518A0053DCCF /* NSString+Extend.m */; };
+		79FBDC8B1FD5518B0053DCCF /* ResourcesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FBDC751FD5518A0053DCCF /* ResourcesManager.m */; };
+		79FBDC8D1FD5518B0053DCCF /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FBDC7E1FD5518A0053DCCF /* TestViewController.m */; };
+		79FBDC8E1FD5518B0053DCCF /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FBDC821FD5518A0053DCCF /* FXBlurView.m */; };
+		79FBDC901FD5518B0053DCCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FBDC841FD5518A0053DCCF /* main.m */; };
+		79FBDC911FD5518B0053DCCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FBDC871FD5518A0053DCCF /* ViewController.m */; };
+		89C305AF7C2CB69B65E66216 /* libPods-FLAVFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F9A8FF152BBF9EA1DFE2B5 /* libPods-FLAVFoundation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7905CCD21E77DACB0031B8FD /* FLAVFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLAVFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		795C95261FD6749D0010FAB9 /* BecauseOfYou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BecauseOfYou.mp3; sourceTree = "<group>"; };
+		798F77361FD81267003E67F6 /* showtest.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = showtest.mp4; sourceTree = "<group>"; };
+		798F77381FD81512003E67F6 /* Charlie The Unicorn.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Charlie The Unicorn.m4v"; sourceTree = "<group>"; };
+		798F77391FD81512003E67F6 /* Hubblecast.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Hubblecast.mov; sourceTree = "<group>"; };
+		798F773A1FD81512003E67F6 /* 03 Demo ID3v2.3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 Demo ID3v2.3.mp3"; sourceTree = "<group>"; };
+		798F773B1FD81512003E67F6 /* 02 Demo ID3v2.2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 Demo ID3v2.2.mp3"; sourceTree = "<group>"; };
+		798F773C1FD81512003E67F6 /* 01 Demo AAC.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01 Demo AAC.m4a"; sourceTree = "<group>"; };
+		798F773D1FD81513003E67F6 /* 04 Demo ID3v2.4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 Demo ID3v2.4.mp3"; sourceTree = "<group>"; };
+		798F77451FD815EF003E67F6 /* AVMetadataItem+THAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVMetadataItem+THAdditions.h"; sourceTree = "<group>"; };
+		798F77461FD815EF003E67F6 /* AVMetadataItem+THAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVMetadataItem+THAdditions.m"; sourceTree = "<group>"; };
+		79FBDC6B1FD5518A0053DCCF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79FBDC6C1FD5518A0053DCCF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79FBDC6D1FD5518A0053DCCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79FBDC711FD5518A0053DCCF /* NSString+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extend.h"; sourceTree = "<group>"; };
+		79FBDC721FD5518A0053DCCF /* NSString+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extend.m"; sourceTree = "<group>"; };
+		79FBDC741FD5518A0053DCCF /* ResourcesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourcesManager.h; sourceTree = "<group>"; };
+		79FBDC751FD5518A0053DCCF /* ResourcesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourcesManager.m; sourceTree = "<group>"; };
+		79FBDC761FD5518A0053DCCF /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		79FBDC781FD5518A0053DCCF /* PHDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHDefines.h; sourceTree = "<group>"; };
+		79FBDC7D1FD5518A0053DCCF /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		79FBDC7E1FD5518A0053DCCF /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		79FBDC811FD5518A0053DCCF /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		79FBDC821FD5518A0053DCCF /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		79FBDC831FD5518A0053DCCF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79FBDC841FD5518A0053DCCF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79FBDC851FD5518A0053DCCF /* FLAVFoundation-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FLAVFoundation-Prefix.pch"; sourceTree = "<group>"; };
+		79FBDC861FD5518A0053DCCF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79FBDC871FD5518A0053DCCF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EA31EB75097BD531B9C0201 /* Pods-FLAVFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLAVFoundation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLAVFoundation/Pods-FLAVFoundation.debug.xcconfig"; sourceTree = "<group>"; };
+		A1F9A8FF152BBF9EA1DFE2B5 /* libPods-FLAVFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLAVFoundation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B8B1FDE771C7FEC0BF1DEF /* Pods-FLAVFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLAVFoundation.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLAVFoundation/Pods-FLAVFoundation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7905CCCF1E77DACB0031B8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C305AF7C2CB69B65E66216 /* libPods-FLAVFoundation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B7C130C121E426FBAABEAA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EA31EB75097BD531B9C0201 /* Pods-FLAVFoundation.debug.xcconfig */,
+				E1B8B1FDE771C7FEC0BF1DEF /* Pods-FLAVFoundation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7905CCC91E77DACB0031B8FD = {
+			isa = PBXGroup;
+			children = (
+				79FBDC6A1FD5518A0053DCCF /* FLAVFoundation */,
+				7905CCD31E77DACB0031B8FD /* Products */,
+				6B7C130C121E426FBAABEAA7 /* Pods */,
+				A5479D16341E5B8296615FB7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7905CCD31E77DACB0031B8FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7905CCD21E77DACB0031B8FD /* FLAVFoundation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		795C95251FD673970010FAB9 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				798F773C1FD81512003E67F6 /* 01 Demo AAC.m4a */,
+				798F773B1FD81512003E67F6 /* 02 Demo ID3v2.2.mp3 */,
+				798F773A1FD81512003E67F6 /* 03 Demo ID3v2.3.mp3 */,
+				798F773D1FD81513003E67F6 /* 04 Demo ID3v2.4.mp3 */,
+				798F77381FD81512003E67F6 /* Charlie The Unicorn.m4v */,
+				798F77391FD81512003E67F6 /* Hubblecast.mov */,
+				798F77361FD81267003E67F6 /* showtest.mp4 */,
+				795C95261FD6749D0010FAB9 /* BecauseOfYou.mp3 */,
+			);
+			path = Media;
+			sourceTree = SOURCE_ROOT;
+		};
+		798F77441FD815EF003E67F6 /* MetaManager */ = {
+			isa = PBXGroup;
+			children = (
+				798F77451FD815EF003E67F6 /* AVMetadataItem+THAdditions.h */,
+				798F77461FD815EF003E67F6 /* AVMetadataItem+THAdditions.m */,
+			);
+			path = MetaManager;
+			sourceTree = "<group>";
+		};
+		79FBDC6A1FD5518A0053DCCF /* FLAVFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				79FBDC6E1FD5518A0053DCCF /* Classes */,
+				79FBDC921FD551CE0053DCCF /* Supporting Files */,
+				79FBDC6B1FD5518A0053DCCF /* AppDelegate.h */,
+				79FBDC6C1FD5518A0053DCCF /* AppDelegate.m */,
+				79FBDC861FD5518A0053DCCF /* ViewController.h */,
+				79FBDC871FD5518A0053DCCF /* ViewController.m */,
+			);
+			path = FLAVFoundation;
+			sourceTree = "<group>";
+		};
+		79FBDC6E1FD5518A0053DCCF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				798F77441FD815EF003E67F6 /* MetaManager */,
+				79FBDC6F1FD5518A0053DCCF /* Common */,
+				79FBDC771FD5518A0053DCCF /* Defines */,
+				79FBDC791FD5518A0053DCCF /* Models */,
+				79FBDC7C1FD5518A0053DCCF /* ViewControllers */,
+				79FBDC7F1FD5518A0053DCCF /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		79FBDC6F1FD5518A0053DCCF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				79FBDC701FD5518A0053DCCF /* Categories */,
+				79FBDC731FD5518A0053DCCF /* ResourcesManager */,
+				79FBDC761FD5518A0053DCCF /* SynthesizeSingleton.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		79FBDC701FD5518A0053DCCF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				79FBDC711FD5518A0053DCCF /* NSString+Extend.h */,
+				79FBDC721FD5518A0053DCCF /* NSString+Extend.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		79FBDC731FD5518A0053DCCF /* ResourcesManager */ = {
+			isa = PBXGroup;
+			children = (
+				79FBDC741FD5518A0053DCCF /* ResourcesManager.h */,
+				79FBDC751FD5518A0053DCCF /* ResourcesManager.m */,
+			);
+			path = ResourcesManager;
+			sourceTree = "<group>";
+		};
+		79FBDC771FD5518A0053DCCF /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				79FBDC781FD5518A0053DCCF /* PHDefines.h */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		79FBDC791FD5518A0053DCCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		79FBDC7C1FD5518A0053DCCF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				79FBDC7D1FD5518A0053DCCF /* TestViewController.h */,
+				79FBDC7E1FD5518A0053DCCF /* TestViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		79FBDC7F1FD5518A0053DCCF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79FBDC801FD5518A0053DCCF /* FXBlurView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		79FBDC801FD5518A0053DCCF /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				79FBDC811FD5518A0053DCCF /* FXBlurView.h */,
+				79FBDC821FD5518A0053DCCF /* FXBlurView.m */,
+			);
+			path = FXBlurView;
+			sourceTree = "<group>";
+		};
+		79FBDC921FD551CE0053DCCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				795C95251FD673970010FAB9 /* Media */,
+				79FBDC6D1FD5518A0053DCCF /* Assets.xcassets */,
+				79FBDC831FD5518A0053DCCF /* Info.plist */,
+				79FBDC841FD5518A0053DCCF /* main.m */,
+				79FBDC851FD5518A0053DCCF /* FLAVFoundation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5479D16341E5B8296615FB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1F9A8FF152BBF9EA1DFE2B5 /* libPods-FLAVFoundation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7905CCD11E77DACB0031B8FD /* FLAVFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7905CCE91E77DACC0031B8FD /* Build configuration list for PBXNativeTarget "FLAVFoundation" */;
+			buildPhases = (
+				6BF816027CBA7317A7AD36F3 /* [CP] Check Pods Manifest.lock */,
+				7905CCCE1E77DACB0031B8FD /* Sources */,
+				7905CCCF1E77DACB0031B8FD /* Frameworks */,
+				7905CCD01E77DACB0031B8FD /* Resources */,
+				4C7393445BFE415287286267 /* [CP] Embed Pods Frameworks */,
+				520AD7A9E32D83A5CD6B7798 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLAVFoundation;
+			productName = CoreAnimationDemo;
+			productReference = 7905CCD21E77DACB0031B8FD /* FLAVFoundation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7905CCCA1E77DACB0031B8FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "ND WebSoft Inc";
+				TargetAttributes = {
+					7905CCD11E77DACB0031B8FD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J5M9U44SX2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7905CCCD1E77DACB0031B8FD /* Build configuration list for PBXProject "FLAVFoundation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7905CCC91E77DACB0031B8FD;
+			productRefGroup = 7905CCD31E77DACB0031B8FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7905CCD11E77DACB0031B8FD /* FLAVFoundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7905CCD01E77DACB0031B8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798F77401FD81513003E67F6 /* 03 Demo ID3v2.3.mp3 in Resources */,
+				795C95271FD6749D0010FAB9 /* BecauseOfYou.mp3 in Resources */,
+				798F77421FD81513003E67F6 /* 01 Demo AAC.m4a in Resources */,
+				79FBDC891FD5518B0053DCCF /* Assets.xcassets in Resources */,
+				798F77411FD81513003E67F6 /* 02 Demo ID3v2.2.mp3 in Resources */,
+				798F77431FD81513003E67F6 /* 04 Demo ID3v2.4.mp3 in Resources */,
+				798F773F1FD81513003E67F6 /* Hubblecast.mov in Resources */,
+				798F77371FD81268003E67F6 /* showtest.mp4 in Resources */,
+				798F773E1FD81513003E67F6 /* Charlie The Unicorn.m4v in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C7393445BFE415287286267 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLAVFoundation/Pods-FLAVFoundation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		520AD7A9E32D83A5CD6B7798 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLAVFoundation/Pods-FLAVFoundation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BF816027CBA7317A7AD36F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7905CCCE1E77DACB0031B8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FBDC8D1FD5518B0053DCCF /* TestViewController.m in Sources */,
+				79FBDC8B1FD5518B0053DCCF /* ResourcesManager.m in Sources */,
+				79FBDC881FD5518B0053DCCF /* AppDelegate.m in Sources */,
+				79FBDC8E1FD5518B0053DCCF /* FXBlurView.m in Sources */,
+				798F77471FD815EF003E67F6 /* AVMetadataItem+THAdditions.m in Sources */,
+				79FBDC911FD5518B0053DCCF /* ViewController.m in Sources */,
+				79FBDC901FD5518B0053DCCF /* main.m in Sources */,
+				79FBDC8A1FD5518B0053DCCF /* NSString+Extend.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7905CCE71E77DACC0031B8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7905CCE81E77DACC0031B8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7905CCEA1E77DACC0031B8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA31EB75097BD531B9C0201 /* Pods-FLAVFoundation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = J5M9U44SX2;
+				GCC_PREFIX_HEADER = "FLAVFoundation/FLAVFoundation-Prefix.pch";
+				INFOPLIST_FILE = FLAVFoundation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.91.sj.FLAVFoundation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7905CCEB1E77DACC0031B8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1B8B1FDE771C7FEC0BF1DEF /* Pods-FLAVFoundation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = J5M9U44SX2;
+				GCC_PREFIX_HEADER = "FLAVFoundation/FLAVFoundation-Prefix.pch";
+				INFOPLIST_FILE = FLAVFoundation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.91.sj.FLAVFoundation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7905CCCD1E77DACB0031B8FD /* Build configuration list for PBXProject "FLAVFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7905CCE71E77DACC0031B8FD /* Debug */,
+				7905CCE81E77DACC0031B8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7905CCE91E77DACC0031B8FD /* Build configuration list for PBXNativeTarget "FLAVFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7905CCEA1E77DACC0031B8FD /* Debug */,
+				7905CCEB1E77DACC0031B8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7905CCCA1E77DACB0031B8FD /* Project object */;
+}

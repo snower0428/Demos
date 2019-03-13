@@ -7,8 +7,13 @@
 //
 
 #import "TestViewController.h"
+#import "LHAlertView.h"
+#import "EOCAutoDictionary.h"
 
 @interface TestViewController ()
+
+@property (nonatomic, strong) NSString *sString;
+@property (nonatomic, copy) NSString *cString;
 
 @end
 
@@ -24,6 +29,7 @@
 	self.navigationItem.rightBarButtonItem = rightItem;
 	
 	//[self testAsync];
+	[self testBarrier];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -95,11 +101,54 @@
 	}
 }
 
+/**
+ *	dispatch_barrier_async的作用：
+ *	它等待所有位于 dispatch_barrier_async 函数之前的操作执行完毕后执行，
+ *	并且在 dispatch_barrier_async 函数执行之后，dispatch_barrier_async 之后的操作才会得到执行。
+ *
+ *	dispatch_barrier_async, 该函数只能搭配自定义的并行队列 dispatch_queue_t 使用。
+ *	不能使用 dispatch_get_global_queue, 否则效果会和 dispatch_async 一样。
+ */
+- (void)testBarrier
+{
+	dispatch_queue_t queue = dispatch_queue_create("com.lh.test.berrier", DISPATCH_QUEUE_CONCURRENT);
+	for (NSInteger i = 0; i < 50; i++) {
+		dispatch_async(queue, ^{
+			NSLog(@"i = %zd ----- currentThread:%@", i, [NSThread currentThread]);
+		});
+	}
+	dispatch_barrier_async(queue, ^{
+		NSLog(@">>>>>>>>>>>>>>>>>>>>>>>>>>>>>> barrier <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ----- currentThread:%@", [NSThread currentThread]);
+	});
+	for (NSInteger j = 0; j < 50; j++) {
+		dispatch_async(queue, ^{
+			NSLog(@"j === %zd ----- currentThread:%@", j, [NSThread currentThread]);
+		});
+	}
+}
+
 #pragma mark - Actions
 
 - (void)rightAction:(id)sender
 {
-	[self testSignal];
+	//[self testSignal];
+	
+#if 0
+	// UIAlertView block 实现
+	LHAlertView *alertView = [[LHAlertView alloc] initWithTitle:@"Title" message:@"Message" block:^(NSInteger index) {
+		if (index == 0) {
+			NSLog(@"Cancel");
+		}
+		else if (index == 1) {
+			NSLog(@"OK");
+		}
+	} cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
+	[alertView show];
+#endif
+	
+	EOCAutoDictionary *dict = [EOCAutoDictionary new];
+	dict.date = [NSDate date];
+	NSLog(@"date:%@", dict.date);
 }
 
 @end

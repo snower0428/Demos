@@ -29,7 +29,7 @@
 	//[self loadRecommendData];
 	//[self loadMainData];
 	
-	[self loadPasters];
+	//[self loadPasters];
 }
 
 - (void)viewDidAppear:(BOOL)animated

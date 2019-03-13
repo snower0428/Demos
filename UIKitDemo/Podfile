@@ -10,5 +10,6 @@ platform :ios, '8.0'
 target 'UIKitDemo' do
 	pod 'GBDeviceInfo', '~> 4.2'
 	pod 'YYModel', '~> 1.0.4'
+	pod 'FBRetainCycleDetector'
 end
 

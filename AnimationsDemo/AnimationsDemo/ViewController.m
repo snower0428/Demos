@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "PopDemoViewController.h"
 #import "PoppingViewController.h"
+#import "LottieDemoViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -45,6 +46,7 @@
 {
 	self.arrayData = @[@[@"pop base demo", [PopDemoViewController class]],
 					   @[@"popping", [PoppingViewController class]],
+					   @[@"lottie", [LottieDemoViewController class]],
 					   ];
 }
 

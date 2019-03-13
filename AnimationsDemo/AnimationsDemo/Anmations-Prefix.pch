@@ -20,6 +20,7 @@
 
 	#import "PHDefines.h"
 	#import "UIColor+CustomColors.h"
+	#import "UIImage+Category.h"
 #endif
 
 #endif /* Anmations_Prefix_pch */

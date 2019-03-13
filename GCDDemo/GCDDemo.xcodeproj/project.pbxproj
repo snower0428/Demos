@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		793B8DD71F7A3E0100C8125A /* NSOperationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B8DD61F7A3E0100C8125A /* NSOperationDemoViewController.m */; };
 		793B8DDA1F7A3E7F00C8125A /* LoadImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 793B8DD91F7A3E7F00C8125A /* LoadImageOperation.m */; };
+		799092541F7F83510089DE93 /* LHAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799092531F7F83510089DE93 /* LHAlertView.m */; };
+		799092571F7F9B760089DE93 /* EOCAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 799092561F7F9B760089DE93 /* EOCAutoDictionary.m */; };
 		79AB2EA41ED43215006EA046 /* NSThreadDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AB2EA31ED43215006EA046 /* NSThreadDemoViewController.m */; };
 		79B6FDEB1EA0D91E007E758C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B6FDCF1EA0D91D007E758C /* AppDelegate.m */; };
 		79B6FDEC1EA0D91E007E758C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B6FDD01EA0D91D007E758C /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 		79B6FDF11EA0D91E007E758C /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B6FDE51EA0D91E007E758C /* FXBlurView.m */; };
 		79B6FDF31EA0D91E007E758C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B6FDE71EA0D91E007E758C /* main.m */; };
 		79B6FDF41EA0D91E007E758C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B6FDEA1EA0D91E007E758C /* ViewController.m */; };
+		79E2FB6C1F7E44D200A3C8FD /* EOCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E2FB6B1F7E44D200A3C8FD /* EOCPerson.m */; };
+		79E2FB6F1F7E451F00A3C8FD /* EOCEmployer.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E2FB6E1F7E451F00A3C8FD /* EOCEmployer.m */; };
 		EB9ECFF603C9141DF1DF66A6 /* libPods-GCDDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D08B0162363C4E9E0534EE2C /* libPods-GCDDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +33,10 @@
 		793B8DD61F7A3E0100C8125A /* NSOperationDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationDemoViewController.m; sourceTree = "<group>"; };
 		793B8DD81F7A3E7F00C8125A /* LoadImageOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadImageOperation.h; sourceTree = "<group>"; };
 		793B8DD91F7A3E7F00C8125A /* LoadImageOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadImageOperation.m; sourceTree = "<group>"; };
+		799092521F7F83510089DE93 /* LHAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHAlertView.h; sourceTree = "<group>"; };
+		799092531F7F83510089DE93 /* LHAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHAlertView.m; sourceTree = "<group>"; };
+		799092551F7F9B760089DE93 /* EOCAutoDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCAutoDictionary.h; sourceTree = "<group>"; };
+		799092561F7F9B760089DE93 /* EOCAutoDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCAutoDictionary.m; sourceTree = "<group>"; };
 		79AB2EA21ED43215006EA046 /* NSThreadDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadDemoViewController.h; sourceTree = "<group>"; };
 		79AB2EA31ED43215006EA046 /* NSThreadDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadDemoViewController.m; sourceTree = "<group>"; };
 		79B6FDCE1EA0D91D007E758C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		79B6FDE81EA0D91E007E758C /* Template-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Template-Prefix.pch"; sourceTree = "<group>"; };
 		79B6FDE91EA0D91E007E758C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		79B6FDEA1EA0D91E007E758C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79E2FB6A1F7E44D200A3C8FD /* EOCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCPerson.h; sourceTree = "<group>"; };
+		79E2FB6B1F7E44D200A3C8FD /* EOCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCPerson.m; sourceTree = "<group>"; };
+		79E2FB6D1F7E451F00A3C8FD /* EOCEmployer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCEmployer.h; sourceTree = "<group>"; };
+		79E2FB6E1F7E451F00A3C8FD /* EOCEmployer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCEmployer.m; sourceTree = "<group>"; };
 		88B5BD15E01C9760504AB6F2 /* Pods-GCDDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GCDDemo/Pods-GCDDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D08B0162363C4E9E0534EE2C /* libPods-GCDDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GCDDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -175,6 +187,14 @@
 				793B8DD61F7A3E0100C8125A /* NSOperationDemoViewController.m */,
 				793B8DD81F7A3E7F00C8125A /* LoadImageOperation.h */,
 				793B8DD91F7A3E7F00C8125A /* LoadImageOperation.m */,
+				79E2FB6A1F7E44D200A3C8FD /* EOCPerson.h */,
+				79E2FB6B1F7E44D200A3C8FD /* EOCPerson.m */,
+				79E2FB6D1F7E451F00A3C8FD /* EOCEmployer.h */,
+				79E2FB6E1F7E451F00A3C8FD /* EOCEmployer.m */,
+				799092521F7F83510089DE93 /* LHAlertView.h */,
+				799092531F7F83510089DE93 /* LHAlertView.m */,
+				799092551F7F9B760089DE93 /* EOCAutoDictionary.h */,
+				799092561F7F9B760089DE93 /* EOCAutoDictionary.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -340,9 +360,13 @@
 				79B6FDF01EA0D91E007E758C /* TestViewController.m in Sources */,
 				79B6FDEE1EA0D91E007E758C /* ResourcesManager.m in Sources */,
 				79B6FDEF1EA0D91E007E758C /* TempItem.m in Sources */,
+				79E2FB6C1F7E44D200A3C8FD /* EOCPerson.m in Sources */,
 				793B8DD71F7A3E0100C8125A /* NSOperationDemoViewController.m in Sources */,
 				79B6FDEB1EA0D91E007E758C /* AppDelegate.m in Sources */,
 				79B6FDF11EA0D91E007E758C /* FXBlurView.m in Sources */,
+				799092571F7F9B760089DE93 /* EOCAutoDictionary.m in Sources */,
+				79E2FB6F1F7E451F00A3C8FD /* EOCEmployer.m in Sources */,
+				799092541F7F83510089DE93 /* LHAlertView.m in Sources */,
 				79B6FDF41EA0D91E007E758C /* ViewController.m in Sources */,
 				793B8DDA1F7A3E7F00C8125A /* LoadImageOperation.m in Sources */,
 				79B6FDF31EA0D91E007E758C /* main.m in Sources */,
