@@ -28,8 +28,8 @@
 	UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(rightAction:)];
 	self.navigationItem.rightBarButtonItem = rightItem;
 	
-	//[self testAsync];
-	[self testBarrier];
+	[self testAsync];
+	//[self testBarrier];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,39 +46,50 @@
 - (void)testAsync
 {
 	// 串行队列
-	dispatch_queue_t queue = dispatch_queue_create("com.lh.test.serial", DISPATCH_QUEUE_SERIAL);
+	//dispatch_queue_t queue = dispatch_queue_create("com.lh.test.serial", DISPATCH_QUEUE_SERIAL);
 	// 并行队列
-	//dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+	dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
 	dispatch_group_t group = dispatch_group_create();
+    
+    // 低优先级队列
+    //dispatch_queue_t lowPriorityQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0);
+    // 高优先级队列
+    //dispatch_queue_t highPriorityQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0);
+    
 	dispatch_group_async(group, queue, ^{
 		NSLog(@"<<< Task A >>>");
 		for (NSInteger i = 0; i < 100; i++) {
-			NSLog(@"Task A ------------------------------------------------------------ %zd", i);
+			NSLog(@"Task A ------------------------------ %zd", i);
 		}
 	});
 	dispatch_group_async(group, queue, ^{
 		NSLog(@"<<< Task B >>>");
 		for (NSInteger i = 0; i < 100; i++) {
-			NSLog(@"Task B ------------------------------------------------------------ %zd", i);
+			NSLog(@"Task B ------------------------------ %zd", i);
 		}
 	});
 	dispatch_group_async(group, queue, ^{
 		NSLog(@"<<< Task C >>>");
 		for (NSInteger i = 0; i < 100; i++) {
-			NSLog(@"Task C ------------------------------------------------------------ %zd", i);
+			NSLog(@"Task C ------------------------------ %zd", i);
 		}
 	});
 	dispatch_group_async(group, queue, ^{
 		NSLog(@"<<< Task D >>>");
 		for (NSInteger i = 0; i < 100; i++) {
-			NSLog(@"Task D ------------------------------------------------------------ %zd", i);
+			NSLog(@"Task D ------------------------------ %zd", i);
 		}
 	});
-	dispatch_group_notify(group, queue, ^{
-		// A,B,C,D执行完成后会回调这里
-		// 如果要让A,B,C,D顺序执行，可以使用串行队列来实现
-		NSLog(@"<<< group_notify >>>");
-	});
+    // 执行完成后，所选用的队列，可以选用主队列，这个可以根据情况下决定。
+    dispatch_group_notify(group, queue, ^{
+        // A,B,C,D执行完成后会回调这里
+        // 如果要让A,B,C,D顺序执行，可以使用串行队列来实现
+        NSLog(@"<<< group_notify >>>");
+    });
+    
+    // 等待group执行完成之后，再执行下面的任务
+    //dispatch_wait(group, DISPATCH_TIME_FOREVER);
+    //NSLog(@"<<< GROUP DONE >>>");
 }
 
 - (void)testSignal
