@@ -1,0 +1,21 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+#source 'http://git.felink.com:3000/felink-iOS/FLSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+
+target 'FLDemos' do
+	pod 'GBDeviceInfo', '~> 6.0'
+  pod 'JPVideoPlayer'
+  pod 'WRNavigationBar','~>1.2.0’
+  pod 'Masonry'
+  pod 'MJRefresh'
+  pod 'IGListKit', '~> 4.0.0'
+  pod 'YYModel'
+  pod 'YYWebImage', '~> 1.0.5'
+  pod 'YYImage/WebP'
+  pod 'LYMovieMake', '~> 0.0.3'
+end

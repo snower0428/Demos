@@ -12,15 +12,15 @@
 #define SYSTEM_VERSION          [[UIDevice currentDevice].systemVersion floatValue]
 #define HOME_VERSION_STRING     [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
 
-#define	STATUSBAR_HEIGHT		20
-#define	NAVIGATIONBAR_HEIGHT	44
-#define SUB_TABBAR_HEIGHT       44
-#define kTopTabHeight			36
-
-#define SCREEN_WIDTH            ([[UIScreen mainScreen] bounds].size.width)
-#define SCREEN_HEIGHT           ([[UIScreen mainScreen] bounds].size.height)
-#define kApplication_Heigh      (SCREEN_HEIGHT-20)
-#define kAppView_Height         (kApplication_Heigh-44)
+//#define	STATUSBAR_HEIGHT		20
+//#define	NAVIGATIONBAR_HEIGHT	44
+//#define SUB_TABBAR_HEIGHT       44
+//#define kTopTabHeight			36
+//
+//#define SCREEN_WIDTH            ([[UIScreen mainScreen] bounds].size.width)
+//#define SCREEN_HEIGHT           ([[UIScreen mainScreen] bounds].size.height)
+//#define kApplication_Heigh      (SCREEN_HEIGHT-20)
+//#define kAppView_Height         (kApplication_Heigh-44)
 
 #define SELECT_TAB_NAVIGATION   (UINavigationController *)((PHTabBarController *)ROOT_VIEW_CONTROLLER).selectedViewController
 

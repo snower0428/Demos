@@ -18,8 +18,14 @@
 	#import <QuartzCore/QuartzCore.h>
 
 	#import <GBDeviceInfo/GBDeviceInfo.h>
+    #import <Masonry/Masonry.h>
+//    #import <WRNavigationBar/WRNavigationBar.h>
+    #import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
+    #import <FLUtility/FLUtility.h>
+    #import "GPUImage.h"
 
 	#import "PHDefines.h"
+    #import "GlobalVariableDefine.h"
 	#import "NSString+Extend.h"
 	#import "ResourcesManager.h"
 #endif

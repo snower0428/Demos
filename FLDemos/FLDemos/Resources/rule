@@ -1,0 +1,37 @@
+﻿{
+	"settings": {
+		"displacement": 0,
+		"colors": [
+			[0.11, 0.19, 0.94999999999999996]
+		],
+		"filter": "chromakey",
+		"smoothing": 0.29999999999999999,
+		"threshold": 1
+	},
+	"key": "overlays",
+	"fileType": "video",
+	"filterType": "color_mask",
+	"colorVideo": "color.mp4",
+	"maskVideo": "mask.mp4",
+	"text": [
+       
+        {
+            "content": "亲爱的",
+            "content_hint": "限5个字",
+            "color": "#ff465c",
+            "size": 40,
+            "max_counts": "5",
+            "align":18,
+            "margin":266,
+            "orientation":1,
+            "x": 0,
+            "y": 0,
+            "total_time":7150,
+            "start_time":200,
+            "end_time":1500,
+            "fade_in_time":500,
+            "fade_out_time":300,
+            "top_layer":true    
+        }
+    ]
+}

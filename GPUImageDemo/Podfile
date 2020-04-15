@@ -2,13 +2,18 @@
 # platform :ios, '8.0'
 # Uncomment this line if you're using Swift
 # use_frameworks!
-#source 'http://git.felink.com:3000/felink-iOS/FLSpecs.git'
-#source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '8.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'http://git.felink.com:3000/felink-iOS/FLSpecs.git'
+
+platform :ios, '10.0'
 
 target 'GPUImageDemo' do
-	pod 'GBDeviceInfo', '~> 4.2'
-	pod 'GPUImage', '~> 0.1.7'
+#	pod 'GPUImage', '~> 0.1.7'
+  pod 'Masonry'
+#  pod 'WRNavigationBar','~>1.2.0’
+  
+  pod 'FDFullscreenPopGesture'
+  pod "FLUtility"
 end
 

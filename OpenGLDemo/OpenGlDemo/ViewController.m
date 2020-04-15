@@ -10,6 +10,9 @@
 #import "TestViewController.h"
 #import "GLKitViewController.h"
 
+#import "OpenGLCh2ViewController001.h"
+#import "OpenGLCh2ViewController003.h"
+
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
@@ -44,6 +47,9 @@
 - (void)configureTableView
 {
 	self.arrayData = @[@[@"GLKit", [GLKitViewController class]],
+                       
+                       @[@"OpenGL Ch2 001", [OpenGLCh2ViewController001 class]],
+                       @[@"OpenGL Ch2 003", [OpenGLCh2ViewController003 class]],
 					   ];
 }
 

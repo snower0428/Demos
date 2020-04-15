@@ -7,9 +7,29 @@
 //
 
 #import "ViewController.h"
+#import "TestViewController.h"
+#import "VPDIYPreviewViewController.h"
+
 #import "GPUImageViewController01.h"
 #import "GPUImageViewController02.h"
 #import "GPUImageViewController03.h"
+
+#import "GPUImageViewController001.h"
+#import "GPUImageViewController002.h"
+#import "GPUImageViewController003.h"
+#import "GPUImageViewController004.h"
+#import "GPUImageViewController005.h"
+#import "GPUImageViewController006.h"
+#import "GPUImageViewController007.h"
+#import "GPUImageViewController008.h"
+
+#import "GPUImageViewBlendViewController.h"
+#import "GPUImageViewImageBlendViewController.h"
+#import "GPUImageViewTransparentViewController.h"
+#import "GPUImageMovieWriterViewController.h"
+
+#import "VideoBoxTestViewController.h"
+#import "PictureMovieBlendViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -44,15 +64,34 @@
 
 - (void)configureTableView
 {
-	self.arrayData = @[@[@"GPUImage 01", [GPUImageViewController01 class]],
+	self.arrayData = @[@[@"Test", [TestViewController class]],
+                       @[@"DIY", [VPDIYPreviewViewController class]],
+                       
+                       @[@"GPUImage 01", [GPUImageViewController01 class]],
 					   @[@"GPUImage 02", [GPUImageViewController02 class]],
 					   @[@"GPUImage 03", [GPUImageViewController03 class]],
+                       
+                       @[@"GPUImage 001", [GPUImageViewController001 class]],
+                       @[@"GPUImage 002", [GPUImageViewController002 class]],
+                       @[@"GPUImage 003", [GPUImageViewController003 class]],
+                       @[@"GPUImage 004", [GPUImageViewController004 class]],
+                       @[@"GPUImage 005", [GPUImageViewController005 class]],
+                       @[@"GPUImage 006", [GPUImageViewController006 class]],
+                       @[@"GPUImage 007", [GPUImageViewController007 class]],
+                       @[@"GPUImage 008", [GPUImageViewController008 class]],
+                       
+                       @[@"GPUImage Blend", [GPUImageViewBlendViewController class]],
+                       @[@"GPUImage ImageBlend", [GPUImageViewImageBlendViewController class]],
+                       @[@"GPUImage Transparent", [GPUImageViewTransparentViewController class]],
+                       @[@"GPUImage MovieWriter", [GPUImageMovieWriterViewController class]],
+                       @[@"Video Box Test", [VideoBoxTestViewController class]],
+                       @[@"Picture Movie Blend", [PictureMovieBlendViewController class]],
 					   ];
 }
 
 - (void)createTableView
 {
-	CGRect tableViewFrame = CGRectMake(0.f, 0.f, SCREEN_WIDTH, kAppView_Height);
+	CGRect tableViewFrame = CGRectMake(0.f, 0.f, SCREEN_WIDTH, APP_VIEW_HEIGHT);
 	
 	self.tableView = [[UITableView alloc] initWithFrame:tableViewFrame style:UITableViewStylePlain];
 	_tableView.backgroundColor = [UIColor clearColor];

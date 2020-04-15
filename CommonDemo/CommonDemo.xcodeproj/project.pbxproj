@@ -237,7 +237,7 @@
 				ORGANIZATIONNAME = "ND WebSoft Inc";
 				TargetAttributes = {
 					79B8BEA0223E5AE500CBF848 = {
-						DevelopmentTeam = ZNGFQM2NH2;
+						DevelopmentTeam = L88HXT665S;
 					};
 				};
 			};
@@ -246,6 +246,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -420,7 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = ZNGFQM2NH2;
+				DEVELOPMENT_TEAM = L88HXT665S;
 				GCC_PREFIX_HEADER = "CommonDemo/CommonDemo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/CommonDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -436,7 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = ZNGFQM2NH2;
+				DEVELOPMENT_TEAM = L88HXT665S;
 				GCC_PREFIX_HEADER = "CommonDemo/CommonDemo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/CommonDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

@@ -5,10 +5,9 @@
 #source 'http://git.felink.com:3000/felink-iOS/FLSpecs.git'
 #source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '8.0'
+platform :ios, '10.0'
 
 target 'OpenGLDemo' do
-	#pod 'pop', '~> 1.0'
 	pod 'GBDeviceInfo', '~> 4.2'
 end
 
