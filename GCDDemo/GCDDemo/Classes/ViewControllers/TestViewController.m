@@ -28,8 +28,8 @@
 	UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(rightAction:)];
 	self.navigationItem.rightBarButtonItem = rightItem;
 	
-	[self testAsync];
-	//[self testBarrier];
+//	[self testAsync];
+	[self testBarrier];
 }
 
 - (void)didReceiveMemoryWarning {

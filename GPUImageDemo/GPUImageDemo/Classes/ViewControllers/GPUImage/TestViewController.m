@@ -40,6 +40,8 @@
 @property (nonatomic, strong) GPUImageDissolveBlendFilter *dissolveBlendFilter;
 @property (nonatomic, strong) GPUImageView *backgroundView;
 
+@property (nonatomic, strong) GPUImageSepiaFilter *sepiaFilter;
+
 @property (nonatomic, strong) NSURL *colorUrl;
 @property (nonatomic, strong) NSURL *maskUrl;
 @property (nonatomic, strong) VPGPUImageMovie *colorMovie;
@@ -184,6 +186,7 @@
     [self.view addSubview:_backgroundView];
     
     self.maskFilter = [[GPUImageMaskFilter alloc] init];
+    self.sepiaFilter = [[GPUImageSepiaFilter alloc] init];
     
     self.colorUrl = [[NSBundle mainBundle] URLForResource:@"color0" withExtension:@"mp4"];
     self.maskUrl = [[NSBundle mainBundle] URLForResource:@"mask0" withExtension:@"mp4"];
@@ -195,6 +198,15 @@
     self.maskMovie = [[VPGPUImageMovie alloc] initWithURL:self.maskUrl];
     self.maskMovie.playAtActualSpeed = YES;
     
+#if 0
+    
+    [self.colorMovie addTarget:self.sepiaFilter];
+    [self.sepiaFilter addTarget:_backgroundView];
+    
+    [self.colorMovie startProcessing];
+    
+#else
+    
     [self.colorMovie addTarget:self.maskFilter];
     [self.maskMovie addTarget:self.maskFilter];
     
@@ -203,6 +215,9 @@
     [self.colorMovie startProcessing];
     [self.maskMovie startProcessing];
     
+#endif
+    
+#if 0
     NSString *moviePath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/Movie.mov"];
     unlink([moviePath UTF8String]);
     NSURL *movieUrl = [NSURL fileURLWithPath:moviePath];
@@ -247,6 +262,7 @@
             [weakSelf save];
         });
     }];
+#endif
 }
 
 - (void)save {
